@@ -150,10 +150,10 @@ export function buildApp({ cfg, svc, db, ctx, getToken, images, log = () => {} }
     ['GET', '/api/stats', 'Counts for the landing page'],
     ['GET', '/api/health', 'Service and RPC lane state'],
   ];
-  app.get('/api', async () => ({ name: 'Frostwit', site: cfg.siteUrl, about: 'Trace stolen official Robinhood stock tokens and USDG on Robinhood Chain and see what the issuer can still freeze. ' + COPY.honesty, auth: 'none', cors: '*', limits: [COPY.limitEth, COPY.limitWindow, COPY.limitUsdg], routes: ROUTES.map(([method, p, about]) => ({ method, path: p, about })), docs: `${cfg.siteUrl}/docs#api`, llms: `${cfg.siteUrl}/llms.txt` }));
+  app.get('/api', async () => ({ name: 'Frostwit', site: cfg.siteUrl, about: 'Trace stolen official Robinhood stock tokens and USDG on Robinhood Chain and see what the issuer can still freeze. ' + COPY.honesty, auth: 'none', cors: '*', limits: [COPY.limitEth, COPY.limitWindow, COPY.limitUsdg], routes: ROUTES.map(([method, p, about]) => ({ method, path: p, about })), source: 'https://github.com/frostwit/frostwit', docs: `${cfg.siteUrl}/docs#api`, llms: `${cfg.siteUrl}/llms.txt` }));
   app.get('/llms.txt', async (req, reply) => reply.type('text/plain; charset=utf-8').send([
     '# Frostwit', '', `> Drained on Robinhood Chain? Paste the theft transaction (or the thief's address). Frostwit follows official Robinhood stock tokens and USDG hop by hop, shows what the issuer can still freeze, re-checks it for 7 days and writes the freeze-request pack. ${COPY.honesty}`, '',
-    `Site: ${cfg.siteUrl}`, `API index: ${cfg.siteUrl}/api`, `Docs: ${cfg.siteUrl}/docs`, '', '## Routes', ...ROUTES.map(([m, p, a]) => `- ${m} ${p}: ${a}`), '',
+    `Site: ${cfg.siteUrl}`, `API index: ${cfg.siteUrl}/api`, `Docs: ${cfg.siteUrl}/docs`, 'Source: https://github.com/frostwit/frostwit', '', '## Routes', ...ROUTES.map(([m, p, a]) => `- ${m} ${p}: ${a}`), '',
     '## Limits (same words everywhere)', `- ${COPY.limitEth}`, `- ${COPY.limitWindow}`, `- ${COPY.limitUsdg}`, `- ${COPY.notAudited}`, '', '## Registry facts', "- First batch: 244 Blocked events, 175 addresses, blocks 43 543–44 953 (8–9 Jun 2026 UTC). Other events are listed individually.", '',
     '## Contacts for freeze requests', `- Robinhood: ${COPY.contacts.robinhood.url} , ${COPY.contacts.robinhood.email}`, `- Paxos (USDG): ${COPY.contacts.paxos.url}. ${COPY.paxosRule}`, '', `${COPY.noAccount}`, ''].join('\n')));
 

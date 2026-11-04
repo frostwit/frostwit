@@ -4,7 +4,7 @@ Drained on Robinhood Chain? Paste the theft transaction (or the thief's address)
 
 Frostwit cannot freeze or recover anything. Robinhood and Paxos decide, and they usually need a police report or a legal directive.
 
-- Site: https://frostwit.pro · API: `GET /api`, `/llms.txt` · X: @frostwitRH
+- Site: https://frostwit.pro · API: `GET /api`, `/llms.txt` · X: @frostwitRH · GitHub: https://github.com/frostwit/frostwit
 - Native ETH is not traced in this version.
 - Address mode covers the last 24 hours by default, up to 7 days (slower, queued). For anything older, paste the theft transaction.
 - Paxos freeze history is not indexed in this version; the live USDG flag is shown.
