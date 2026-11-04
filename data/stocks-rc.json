@@ -1,0 +1,3593 @@
+{
+ "_note": "Scan PoolCreated Uniswap V3 factory 0x1f7d…2EfA (blok 0–103.967.389) → token berpasangan USDG → nama '… • Robinhood Token' → official = bytecode identik dengan NVDA resmi 0xd060…9EEC. USDG di pool = USDG.balanceOf(pool) (6 dec). Dibaca lewat rpc.mainnet.chain.robinhood.com dari us1.",
+ "verifiedAt": "2026-11-02",
+ "chainId": 4663,
+ "official": [
+  {
+   "symbol": "USO",
+   "name": "United States Oil Fund",
+   "address": "0xa30fa36db767ad9ed3f7a60fc79526fb4d56d344",
+   "pools": [
+    {
+     "fee": 3000,
+     "pool": "0x02175608f1b5e6b5ed221ccfdc7be197d111d915",
+     "usdg": 948679.502696
+    },
+    {
+     "fee": 10000,
+     "pool": "0x6ed11c7dfd8e2ca5620eed29a7b9b53ae90dd0d2",
+     "usdg": 77635.796097
+    }
+   ]
+  },
+  {
+   "symbol": "SGOV",
+   "name": "iShares 0-3 Month Treasury Bond",
+   "address": "0x92fd66527192e3e61d4ddd13322aa222de86f9b5",
+   "pools": [
+    {
+     "fee": 3000,
+     "pool": "0xfab520051f96f4d2a32c22b6a3dd7fffdf231bfe",
+     "usdg": 639572.811649
+    },
+    {
+     "fee": 500,
+     "pool": "0x6ba50150b17ffd0972915aaf04ffd5e8f4fa49b4",
+     "usdg": 33685.129928
+    },
+    {
+     "fee": 100,
+     "pool": "0xffb376bfc48668f16719b42ed8aeef5b98dbc4f1",
+     "usdg": 0.002945
+    }
+   ]
+  },
+  {
+   "symbol": "CRCL",
+   "name": "Circle Internet Group",
+   "address": "0xdf0992e440dd0be65bd8439b609d6d4366bf1cb5",
+   "pools": [
+    {
+     "fee": 3000,
+     "pool": "0x654e4143e82a5824445ade0824351c2a9acd95a8",
+     "usdg": 520493.094462
+    },
+    {
+     "fee": 10000,
+     "pool": "0x9324a34abd68e46cd0f62a561a7bb10a2b1fa477",
+     "usdg": 0.00021
+    },
+    {
+     "fee": 500,
+     "pool": "0xa01e08626792d78c65c495b581a50d2156dc860c",
+     "usdg": 2e-05
+    }
+   ]
+  },
+  {
+   "symbol": "SPCX",
+   "name": "Space Exploration Technologies Corp. Class A Common Stock",
+   "address": "0x4a0e65a3eccec6dbe60ae065f2e7bb85fae35eea",
+   "pools": [
+    {
+     "fee": 500,
+     "pool": "0xc61284332117c3fb23a2a56cceffd07f7af60029",
+     "usdg": 478062.745493
+    },
+    {
+     "fee": 3000,
+     "pool": "0xeb07d9587efd1778dfb9c385ec43ef6d5f9fe401",
+     "usdg": 169833.44069
+    },
+    {
+     "fee": 10000,
+     "pool": "0xfbb32c09488e3fc33fe6fd84fe6ae442b4d13a31",
+     "usdg": 1329.627546
+    },
+    {
+     "fee": 100,
+     "pool": "0x87c58b43537005189cfc7b512d818dc9125e94fc",
+     "usdg": 0.010208
+    }
+   ]
+  },
+  {
+   "symbol": "NVDA",
+   "name": "NVIDIA",
+   "address": "0xd0601ce157db5bdc3162bbac2a2c8af5320d9eec",
+   "pools": [
+    {
+     "fee": 500,
+     "pool": "0xd4eb21209c4d6093f80b5b84f5c45cc093ea14a3",
+     "usdg": 438940.018396
+    },
+    {
+     "fee": 3000,
+     "pool": "0xb944cec30bd4175855215d767adc81f39e5f7e2b",
+     "usdg": 7100.672262
+    },
+    {
+     "fee": 10000,
+     "pool": "0xc277560df3689a401ba7dedd7626168b234ceb5e",
+     "usdg": 3132.249344
+    },
+    {
+     "fee": 100,
+     "pool": "0xb75d2d02b0ec3de50d32e40a4f1a8dae8acc4333",
+     "usdg": 83.001316
+    }
+   ]
+  },
+  {
+   "symbol": "COST",
+   "name": "Costco",
+   "address": "0x4ea005168d7f09a7a0ba9d1def21a479950e44c2",
+   "pools": [
+    {
+     "fee": 3000,
+     "pool": "0x0a2121a50a09ed0796ae81f9c53ff9398355a398",
+     "usdg": 368592.439281
+    },
+    {
+     "fee": 10000,
+     "pool": "0xdb073638f94a384b8b7a647d73274decac9e7ca5",
+     "usdg": 497.908624
+    }
+   ]
+  },
+  {
+   "symbol": "MU",
+   "name": "Micron Technology",
+   "address": "0xff080c8ce2e5feadaca0da81314ae59d232d4afd",
+   "pools": [
+    {
+     "fee": 3000,
+     "pool": "0xd057b1bc54917855bbee58ead58647f47cab35e5",
+     "usdg": 361939.27003
+    },
+    {
+     "fee": 500,
+     "pool": "0x6fd0f36320a1e50e42f130ce4a5c530b992a0a14",
+     "usdg": 0.007622
+    }
+   ]
+  },
+  {
+   "symbol": "TSLA",
+   "name": "Tesla",
+   "address": "0x322f0929c4625ed5bad873c95208d54e1c003b2d",
+   "pools": [
+    {
+     "fee": 3000,
+     "pool": "0xf4acdaeeb7022862a763c9b1b885e11191c889e3",
+     "usdg": 287188.255399
+    },
+    {
+     "fee": 10000,
+     "pool": "0xb349fb08c2712f3a70bad40a4d006b68d67e888b",
+     "usdg": 7505.520329
+    },
+    {
+     "fee": 500,
+     "pool": "0xc4f0172d6ac8dd294dd1137d047d5e1893760236",
+     "usdg": 2469.580767
+    },
+    {
+     "fee": 100,
+     "pool": "0x7868622ff2c3b1b6c8acb15fe0bdaebf043dda48",
+     "usdg": 2e-06
+    }
+   ]
+  },
+  {
+   "symbol": "AMC",
+   "name": "AMC Entertainment",
+   "address": "0x05a3d1cd21d0c88145e82600e62e7e496e0f222b",
+   "pools": [
+    {
+     "fee": 3000,
+     "pool": "0xaa34fea710a1a737840329051d81d3b0b7c564d5",
+     "usdg": 282621.995758
+    },
+    {
+     "fee": 10000,
+     "pool": "0xc97894fc00c6eeb060838559d905b4c2253fd429",
+     "usdg": 177.743016
+    },
+    {
+     "fee": 500,
+     "pool": "0x5c329ec542f9f88b6fb7530e55c06f7b0b5e242f",
+     "usdg": 0.000198
+    }
+   ]
+  },
+  {
+   "symbol": "AMZN",
+   "name": "Amazon",
+   "address": "0x12f190a9f9d7d37a250758b26824b97ce941bf54",
+   "pools": [
+    {
+     "fee": 3000,
+     "pool": "0x8ac92da74ab5f3b1d024dc1943ad7e15dc4179ef",
+     "usdg": 252491.149046
+    },
+    {
+     "fee": 10000,
+     "pool": "0x25967b7ca2d06aa46e47e188231ca78c87ef1fd7",
+     "usdg": 3.1e-05
+    },
+    {
+     "fee": 500,
+     "pool": "0xa99dea8d168392abb4aed0419629309dac7dbfbb",
+     "usdg": 2.1e-05
+    },
+    {
+     "fee": 100,
+     "pool": "0x7b242dfa849419242e3733308d5c91fe2a7dae7e",
+     "usdg": 2e-06
+    }
+   ]
+  },
+  {
+   "symbol": "MSFT",
+   "name": "Microsoft",
+   "address": "0xe93237c50d904957cf27e7b1133b510c669c2e74",
+   "pools": [
+    {
+     "fee": 3000,
+     "pool": "0xeb60bcd1d920ad6e102690ccfc6fb488899e1510",
+     "usdg": 225265.664511
+    },
+    {
+     "fee": 10000,
+     "pool": "0x2ea9292113514ed84fd16aa4ad1e416537e39c8c",
+     "usdg": 0.691332
+    },
+    {
+     "fee": 500,
+     "pool": "0x38fa8bf13a6b2ac49be77babb22c1837d1e505f9",
+     "usdg": 0.000225
+    },
+    {
+     "fee": 100,
+     "pool": "0x3d69ea64810300877b938e9ad9916c25912c08f5",
+     "usdg": 3e-06
+    }
+   ]
+  },
+  {
+   "symbol": "GLD",
+   "name": "SPDR Gold Trust",
+   "address": "0xc9a981fee1f9dec688bb123ccdecc63d0debfc4e",
+   "pools": [
+    {
+     "fee": 3000,
+     "pool": "0x7a6a053eccf1446a2633e05aa6d40d09381997ec",
+     "usdg": 212392.575274
+    },
+    {
+     "fee": 500,
+     "pool": "0xba2f1ed4ceb2169d538d1e614d847e83c5a55913",
+     "usdg": 40893.729866
+    },
+    {
+     "fee": 10000,
+     "pool": "0x32cb909acf78354e08aa45639ff5cd33767e730a",
+     "usdg": 1091.416978
+    },
+    {
+     "fee": 100,
+     "pool": "0x51aadbaf763e2c40e0072de814cac25d9bc09b59",
+     "usdg": 8e-06
+    }
+   ]
+  },
+  {
+   "symbol": "HIMS",
+   "name": "Hims & Hers Health",
+   "address": "0xccee82fe024c36fa15e1005ede3e9e4787e23d09",
+   "pools": [
+    {
+     "fee": 3000,
+     "pool": "0xc8c90d3a1c1a24967e773ac2ad0d456ba3e31f64",
+     "usdg": 198966.074856
+    },
+    {
+     "fee": 10000,
+     "pool": "0x18e2380689f425e0999f119553ac1f1c3b943e5f",
+     "usdg": 68.540666
+    },
+    {
+     "fee": 500,
+     "pool": "0x0326c9f4262b88e79987c31d4f3c82761068cfcb",
+     "usdg": 0.0001
+    }
+   ]
+  },
+  {
+   "symbol": "MRNA",
+   "name": "Moderna",
+   "address": "0x43b07d15ce533bec5476d70c22a78a1b2b662155",
+   "pools": [
+    {
+     "fee": 3000,
+     "pool": "0xb40196272a6d2eb5edf6d93bc4dc39856ad95e0e",
+     "usdg": 157413.244199
+    },
+    {
+     "fee": 10000,
+     "pool": "0xa34d0667334074df2d5bfd259e79e6b9cf1fa8bf",
+     "usdg": 53254.081601
+    }
+   ]
+  },
+  {
+   "symbol": "QQQ",
+   "name": "Invesco QQQ",
+   "address": "0xd5f3879160bc7c32ebb4dc785f8a4f505888de68",
+   "pools": [
+    {
+     "fee": 500,
+     "pool": "0xd60a5d14db690b7afad71f76b108071d7175597d",
+     "usdg": 147431.919922
+    },
+    {
+     "fee": 3000,
+     "pool": "0xebd78dcfc8a6b3a696f1e191ad1ff321f9579f79",
+     "usdg": 1841.347823
+    },
+    {
+     "fee": 100,
+     "pool": "0x4539019b527211998642fec342c85dcb44c7e5e4",
+     "usdg": 3e-06
+    }
+   ]
+  },
+  {
+   "symbol": "GME",
+   "name": "GameStop",
+   "address": "0x1b0e319c6a659f002271b69db8a7df2f911c153e",
+   "pools": [
+    {
+     "fee": 10000,
+     "pool": "0xe9713f453adb9245b19559790c96f470a18f2fdf",
+     "usdg": 129386.442965
+    },
+    {
+     "fee": 500,
+     "pool": "0xe2b46c905e12ab8e2f864e4821a4325884c1b126",
+     "usdg": 24202.238241
+    },
+    {
+     "fee": 3000,
+     "pool": "0x0a0675689c2ad2a3ade86539bcbd27b6c0764e9d",
+     "usdg": 847.593057
+    },
+    {
+     "fee": 100,
+     "pool": "0xb7723619e09e9317b3e538e7531ecbb910aec107",
+     "usdg": 5.9e-05
+    }
+   ]
+  },
+  {
+   "symbol": "MSTR",
+   "name": "Strategy Inc.",
+   "address": "0xec262a75e413fafd0df80480274532c79d42da09",
+   "pools": [
+    {
+     "fee": 10000,
+     "pool": "0x17578c0e0d15da44f31677263114f71ae76653ea",
+     "usdg": 124131.550753
+    },
+    {
+     "fee": 3000,
+     "pool": "0x2c08bcef714bc8124972b7181494fc598e8ed111",
+     "usdg": 3809.239249
+    },
+    {
+     "fee": 500,
+     "pool": "0xa8f372b32b9487ec4d77fb2046a3bd4a8c6d8a8f",
+     "usdg": 4.5e-05
+    }
+   ]
+  },
+  {
+   "symbol": "SPY",
+   "name": "SPDR S&P 500 ETF Trust",
+   "address": "0x117cc2133c37b721f49de2a7a74833232b3b4c0c",
+   "pools": [
+    {
+     "fee": 500,
+     "pool": "0xa7bb1ac63bbab0c44316e6c8c455213441689167",
+     "usdg": 112591.730347
+    },
+    {
+     "fee": 3000,
+     "pool": "0xa43b424bc609495aed4bcd88d654934b510b0ad9",
+     "usdg": 6370.867877
+    },
+    {
+     "fee": 100,
+     "pool": "0x62fde201c424d6d07730b77450dd73928ebac5f5",
+     "usdg": 0.000109
+    }
+   ]
+  },
+  {
+   "symbol": "MCD",
+   "name": "McDonald's",
+   "address": "0x2fdaa4604f10f4ae7f66fa48a174bcd25b1ece20",
+   "pools": [
+    {
+     "fee": 3000,
+     "pool": "0x2e97f9ec9c6bac972ab5bc1b8a1a7973b701dd97",
+     "usdg": 107976.477926
+    },
+    {
+     "fee": 10000,
+     "pool": "0x5021b01be9af3723b1633f4ee6f63181e7eb2d3b",
+     "usdg": 6e-06
+    }
+   ]
+  },
+  {
+   "symbol": "LLY",
+   "name": "Eli Lilly",
+   "address": "0x8005d266423c7ea827372c9c864491e5786600ea",
+   "pools": [
+    {
+     "fee": 10000,
+     "pool": "0xf4274130137eee20bad928b593d992716516ceb9",
+     "usdg": 107473.884208
+    },
+    {
+     "fee": 3000,
+     "pool": "0xd2038788ebe1e0bfd7c0a6112f09778f3aeaeca6",
+     "usdg": 35641.636937
+    },
+    {
+     "fee": 500,
+     "pool": "0xf212d02146a897f5f686e9d629f6a73da534324a",
+     "usdg": 19603.436732
+    }
+   ]
+  },
+  {
+   "symbol": "AVGO",
+   "name": "Broadcom",
+   "address": "0x156e175dd063a8ce274c50654ef40e0032b3fbcf",
+   "pools": [
+    {
+     "fee": 3000,
+     "pool": "0x5b7c404f1d7d77f9f3885ab13d7764f8a173028c",
+     "usdg": 103971.354232
+    },
+    {
+     "fee": 10000,
+     "pool": "0xc3dabbed6574e1ef93c9e3e68e4e30ba77ca38be",
+     "usdg": 0.000168
+    }
+   ]
+  },
+  {
+   "symbol": "GOOGL",
+   "name": "Alphabet Class A",
+   "address": "0x2e0847e8910a9732eb3fb1bb4b70a580adad4fe3",
+   "pools": [
+    {
+     "fee": 500,
+     "pool": "0x34d0dc122cf9a8eb296fc5e0d3a233625d7d19b7",
+     "usdg": 86445.361478
+    },
+    {
+     "fee": 3000,
+     "pool": "0x553e9a453425cd9b90919f317061fbc3794cc57a",
+     "usdg": 202.099223
+    },
+    {
+     "fee": 100,
+     "pool": "0xa3617bb4d7dc9dd20f79165486097a54b3593164",
+     "usdg": 0.001808
+    },
+    {
+     "fee": 10000,
+     "pool": "0xb2bb17fa1905bcc1558b5aaec894faab666b323a",
+     "usdg": 1.9e-05
+    }
+   ]
+  },
+  {
+   "symbol": "AAPL",
+   "name": "Apple",
+   "address": "0xaf3d76f1834a1d425780943c99ea8a608f8a93f9",
+   "pools": [
+    {
+     "fee": 3000,
+     "pool": "0x783c9bbb765047cfdd2b84b92b2ca9f11d34b7ed",
+     "usdg": 78868.613177
+    },
+    {
+     "fee": 500,
+     "pool": "0xaae0d815ee56e4092a5e5c2911e676fea50b2d6d",
+     "usdg": 72066.452364
+    },
+    {
+     "fee": 10000,
+     "pool": "0x3714aa8105de1f384481b425788af413748c1837",
+     "usdg": 575.330378
+    }
+   ]
+  },
+  {
+   "symbol": "AMD",
+   "name": "AMD",
+   "address": "0x86923f96303d656e4aa86d9d42d1e57ad2023fdc",
+   "pools": [
+    {
+     "fee": 3000,
+     "pool": "0x48d284a2a4d3dc1b3da08231fe44317e7e7aa51f",
+     "usdg": 77472.081659
+    },
+    {
+     "fee": 10000,
+     "pool": "0xd6af1dcb75cdae4f2efc403a58ef023a51edc686",
+     "usdg": 761.127244
+    },
+    {
+     "fee": 100,
+     "pool": "0x4ee16fe614f3a04f1510edf1932a41cbd5c4af9c",
+     "usdg": 3e-06
+    }
+   ]
+  },
+  {
+   "symbol": "DIS",
+   "name": "Disney",
+   "address": "0x501b1b3b79750313ad2c4cccd08586c4c17d7283",
+   "pools": [
+    {
+     "fee": 3000,
+     "pool": "0x75f7109eb00eab50426f19b00fb05783bd1a0501",
+     "usdg": 64495.93795
+    }
+   ]
+  },
+  {
+   "symbol": "BE",
+   "name": "Bloom Energy",
+   "address": "0x822cc93ffd030293e9842c30bbd678f530701867",
+   "pools": [
+    {
+     "fee": 3000,
+     "pool": "0x1bad145c8f06444e0df81c28257cd20231bd1f16",
+     "usdg": 56448.890739
+    },
+    {
+     "fee": 10000,
+     "pool": "0xb28ae7eaa50a7eb468d6aa516c85b1bb56b3b085",
+     "usdg": 0.006114
+    }
+   ]
+  },
+  {
+   "symbol": "SKHY",
+   "name": "SK hynix Inc. American Depositary Shares",
+   "address": "0x84cab63bc87912e71ad199ff14a0ba45de68fef8",
+   "pools": [
+    {
+     "fee": 3000,
+     "pool": "0x5f2a5025feb93a4c44da4e3b37e4fd3fb0ab5171",
+     "usdg": 45024.152882
+    },
+    {
+     "fee": 10000,
+     "pool": "0x3b0028f88fdeb46150420ad9a0784844c5f6fab2",
+     "usdg": 0.000329
+    },
+    {
+     "fee": 500,
+     "pool": "0xb504030b2d88183bf292b13378251abaabed5168",
+     "usdg": 5e-06
+    }
+   ]
+  },
+  {
+   "symbol": "IBM",
+   "name": "IBM",
+   "address": "0x980dcf6766fa79f5cf0c4aadb3ab477ff15a9619",
+   "pools": [
+    {
+     "fee": 3000,
+     "pool": "0x8cd848ce18b829c5c769aff27164078bb52e0e97",
+     "usdg": 40905.918101
+    },
+    {
+     "fee": 10000,
+     "pool": "0xa0a79bc62fc822f3bcdf0ebbc586031781c53a5b",
+     "usdg": 11262.114882
+    },
+    {
+     "fee": 500,
+     "pool": "0x8a9e0978e84ed7786e4251914ffff2f922ab351f",
+     "usdg": 6e-06
+    },
+    {
+     "fee": 100,
+     "pool": "0x05261191bc75f7bd572996bd03eaa9a26547c3c2",
+     "usdg": 0
+    }
+   ]
+  },
+  {
+   "symbol": "INTC",
+   "name": "Intel",
+   "address": "0xc72b96e0e48ecd4dc75e1e45396e26300bc39681",
+   "pools": [
+    {
+     "fee": 3000,
+     "pool": "0x2e5a92f5013a64661a49312111be2e8abd33f56a",
+     "usdg": 40444.47911
+    }
+   ]
+  },
+  {
+   "symbol": "META",
+   "name": "Meta Platforms",
+   "address": "0xc0d6457c16cc70d6790dd43521c899c87ce02f35",
+   "pools": [
+    {
+     "fee": 3000,
+     "pool": "0x107a7cb40d8665360ba10e59471af06150a50922",
+     "usdg": 36013.43893
+    },
+    {
+     "fee": 10000,
+     "pool": "0x6fd62e9843ad2ac2c4fbf2b62647953ea29b3537",
+     "usdg": 43.481256
+    },
+    {
+     "fee": 100,
+     "pool": "0xad6df50832884f3498cd354086cefb0e39070f1b",
+     "usdg": 3e-06
+    }
+   ]
+  },
+  {
+   "symbol": "GLXY",
+   "name": "Galaxy Digital Inc.",
+   "address": "0x2d427692e928fa156ec22acfabafa0447c5805b7",
+   "pools": [
+    {
+     "fee": 3000,
+     "pool": "0xc67c2d200e0b7e5d99f4cfbede8cb09b48892f2c",
+     "usdg": 30735.274364
+    },
+    {
+     "fee": 10000,
+     "pool": "0x5016f0fa496fd9818a3452146457cd8d779dba61",
+     "usdg": 5.6e-05
+    }
+   ]
+  },
+  {
+   "symbol": "RBLX",
+   "name": "Roblox",
+   "address": "0xf0c4bf4c582cb3836e98394b1d4e7b7281101be8",
+   "pools": [
+    {
+     "fee": 10000,
+     "pool": "0x2ef5945cd5664876b6481fdacfaa2942995a4da8",
+     "usdg": 27320.522563
+    },
+    {
+     "fee": 3000,
+     "pool": "0x1bdb8e3a79cb1a7f228808739311e23098d33d43",
+     "usdg": 8296.460902
+    },
+    {
+     "fee": 100,
+     "pool": "0x153601c37e9372b82021ac84a485807e20054c46",
+     "usdg": 4e-06
+    }
+   ]
+  },
+  {
+   "symbol": "UPS",
+   "name": "UPS",
+   "address": "0xf23250dac154d05bb671cb0d0ebef3c635c79ce2",
+   "pools": [
+    {
+     "fee": 10000,
+     "pool": "0x3ab74c45dcecc6a62898204dd42143a816b44cb1",
+     "usdg": 26124.723219
+    },
+    {
+     "fee": 3000,
+     "pool": "0x5c67a84ec5494ffe24e217b28debb96341014c86",
+     "usdg": 7580.171929
+    }
+   ]
+  },
+  {
+   "symbol": "PLTR",
+   "name": "Palantir Technologies",
+   "address": "0x894e1ec2d74ffe5aef8dc8a9e84686accb964f2a",
+   "pools": [
+    {
+     "fee": 3000,
+     "pool": "0x851680416a4f4e1c463d45171d61acddbc8554c0",
+     "usdg": 25796.314312
+    }
+   ]
+  },
+  {
+   "symbol": "F",
+   "name": "Ford Motor",
+   "address": "0x25c288e6d899b9bc30160965ad9644c67e73be0c",
+   "pools": [
+    {
+     "fee": 3000,
+     "pool": "0x4dbac19e895322ac5b93abad9008691632bffc05",
+     "usdg": 23900.261044
+    },
+    {
+     "fee": 10000,
+     "pool": "0x01948e834623aa859ffdc0d299dd15e7c9d7486f",
+     "usdg": 0.002623
+    }
+   ]
+  },
+  {
+   "symbol": "RDDT",
+   "name": "Reddit",
+   "address": "0x05b37fb53a299a1b874a619e1c4c404d52c36f4c",
+   "pools": [
+    {
+     "fee": 10000,
+     "pool": "0xa8744e76aed23b05f0126335e7bd38f7935d19fe",
+     "usdg": 22334.339044
+    },
+    {
+     "fee": 3000,
+     "pool": "0x1a774e182159d2880dbc646eb89a8defe569f97c",
+     "usdg": 54.275844
+    },
+    {
+     "fee": 500,
+     "pool": "0x344f2705c99948c902d604170abe49b9d2c39d2f",
+     "usdg": 1e-06
+    }
+   ]
+  },
+  {
+   "symbol": "DELL",
+   "name": "Dell",
+   "address": "0x941ae714ec6d8130c7b75d67160ca08f1e7d11dd",
+   "pools": [
+    {
+     "fee": 10000,
+     "pool": "0xc30c89cb7815a1488b7998d15eec73961707fc5a",
+     "usdg": 21651.948023
+    },
+    {
+     "fee": 3000,
+     "pool": "0xa0f5ef20f49db62bb20e0f2b51257ca897a01a5f",
+     "usdg": 0.000214
+    }
+   ]
+  },
+  {
+   "symbol": "DJT",
+   "name": "Trump Media & Technology Group",
+   "address": "0x1d11f0496982706c5e14a514d4e79f2e6bde4516",
+   "pools": [
+    {
+     "fee": 10000,
+     "pool": "0x31a89afd92f9397465649ad03226c52292fc1ae5",
+     "usdg": 21550.504538
+    },
+    {
+     "fee": 3000,
+     "pool": "0x656eedc3e805ca2da197071f742908732d60901b",
+     "usdg": 0.007762
+    },
+    {
+     "fee": 500,
+     "pool": "0x336672031dca39d4160f61106db0e92295ddad6f",
+     "usdg": 0.000529
+    },
+    {
+     "fee": 100,
+     "pool": "0xa04bf3cd3f5cdb78ab5a3277e9eab7a765ba9a92",
+     "usdg": 7e-06
+    }
+   ]
+  },
+  {
+   "symbol": "LULU",
+   "name": "Lululemon",
+   "address": "0x4e62068525ab11fe768e29dfd00ef909b9803016",
+   "pools": [
+    {
+     "fee": 3000,
+     "pool": "0x0f4227d27082b3bca6818381b9ea6460275e49f4",
+     "usdg": 19861.385906
+    },
+    {
+     "fee": 10000,
+     "pool": "0x19757223628da89569f9a2488af6c45cb9824ea1",
+     "usdg": 203.057878
+    },
+    {
+     "fee": 500,
+     "pool": "0x5e0a340f80cea899b70e086d1269d188c48a7380",
+     "usdg": 1.2e-05
+    }
+   ]
+  },
+  {
+   "symbol": "NFLX",
+   "name": "Netflix",
+   "address": "0xe0444ef8bf4ed74f74fd73686e2ddf4c1c5591e8",
+   "pools": [
+    {
+     "fee": 3000,
+     "pool": "0x59895c0302f41aeaa129d2fa2442cec01e7ef45e",
+     "usdg": 19696.926569
+    },
+    {
+     "fee": 10000,
+     "pool": "0xea75ea625d83ae276b9ae8b0a3dc205916ee65cf",
+     "usdg": 63.958822
+    }
+   ]
+  },
+  {
+   "symbol": "TSM",
+   "name": "Taiwan Semiconductor Manufacturing",
+   "address": "0x58ffe4a942d3885baa22d7520691f611ef09e7aa",
+   "pools": [
+    {
+     "fee": 10000,
+     "pool": "0x07e8ea83d4c1340774c8965125e26e12bf943bf1",
+     "usdg": 17881.142961
+    },
+    {
+     "fee": 500,
+     "pool": "0x2c240decd722b44e1cde06db77c2e1b969be7613",
+     "usdg": 0.000137
+    },
+    {
+     "fee": 3000,
+     "pool": "0xccba175d31198e47968a7033179f512d7b38ead6",
+     "usdg": 0.000128
+    }
+   ]
+  },
+  {
+   "symbol": "PYPL",
+   "name": "PayPal",
+   "address": "0xa45abdc77918f7b9199b022eee400c0bc5712bd2",
+   "pools": [
+    {
+     "fee": 3000,
+     "pool": "0x4f59397a5f742dcf91c69763de550f406af7ebff",
+     "usdg": 15233.411107
+    }
+   ]
+  },
+  {
+   "symbol": "SLV",
+   "name": "iShares Silver Trust",
+   "address": "0x411efb0e7f985935daec3d4c3ebaea0d0ad7d89f",
+   "pools": [
+    {
+     "fee": 3000,
+     "pool": "0x8cb787e6c315d464775289bad00fdd67d53ecb3d",
+     "usdg": 14684.283316
+    },
+    {
+     "fee": 10000,
+     "pool": "0x0fa7bc480885dcf58ad2ef63ec7289cf2481d51c",
+     "usdg": 763.223576
+    },
+    {
+     "fee": 500,
+     "pool": "0x37ed4621d1eb3abc9e551a888e6aaf0a41f7be8e",
+     "usdg": 114.120898
+    }
+   ]
+  },
+  {
+   "symbol": "BABA",
+   "name": "Alibaba",
+   "address": "0xad25ac6c84d497db898fa1e8387bf6af3532a1c4",
+   "pools": [
+    {
+     "fee": 3000,
+     "pool": "0xa57ab582b310dd6f9e934ea1eeea152741545e6a",
+     "usdg": 14413.382171
+    },
+    {
+     "fee": 10000,
+     "pool": "0x9eda4bcb3ebfede532f3cae3864fc0cefff782aa",
+     "usdg": 737.295653
+    },
+    {
+     "fee": 500,
+     "pool": "0x368ddd38861d31435d764fc54df7d16481e3590b",
+     "usdg": 0.24315
+    }
+   ]
+  },
+  {
+   "symbol": "UBER",
+   "name": "Uber",
+   "address": "0xbd335aa5a1693f0121a5c0ef18a080e9958da78b",
+   "pools": [
+    {
+     "fee": 3000,
+     "pool": "0x0df328152a3708f99f6cf13fb3c820bbbf9115c1",
+     "usdg": 12935.572947
+    }
+   ]
+  },
+  {
+   "symbol": "QUBT",
+   "name": "Quantum Computing",
+   "address": "0x59818904ab4ce163b3ce4ffb64f2d6ca02c434b4",
+   "pools": [
+    {
+     "fee": 3000,
+     "pool": "0x227bbce9a81b3694b01754298a983be3f9e44a93",
+     "usdg": 12281.598694
+    },
+    {
+     "fee": 10000,
+     "pool": "0x2e2a857c08ad6c09f1d1ec4fdb4cc7cd06cf17f4",
+     "usdg": 2916.397486
+    },
+    {
+     "fee": 100,
+     "pool": "0xbad5559f6b39a341cbf62d7dd7ffec6f9e242599",
+     "usdg": 2e-06
+    }
+   ]
+  },
+  {
+   "symbol": "USAR",
+   "name": "USA Rare Earth",
+   "address": "0xd917b029c761d264c6a312bbbcda868658ef86a6",
+   "pools": [
+    {
+     "fee": 3000,
+     "pool": "0x04391780f519b7d3ba59c9590459d76e23d225c4",
+     "usdg": 11964.215027
+    },
+    {
+     "fee": 10000,
+     "pool": "0x21cf29b6406d966a81ca48fb3e99c8def01f3ad5",
+     "usdg": 4.8e-05
+    },
+    {
+     "fee": 500,
+     "pool": "0x2b307a1bf7a16d20c577cda78c3447c72ff3694f",
+     "usdg": 1.6e-05
+    }
+   ]
+  },
+  {
+   "symbol": "SNAP",
+   "name": "Snap",
+   "address": "0xf6589f11bc40b669e584073f428b05562f568733",
+   "pools": [
+    {
+     "fee": 3000,
+     "pool": "0x0ebd4650c9e641e9745b5a508a2d46935dfe753e",
+     "usdg": 11641.873315
+    },
+    {
+     "fee": 10000,
+     "pool": "0xc1bc4e31e763989616445a03627c17a5bc624778",
+     "usdg": 8.9e-05
+    },
+    {
+     "fee": 500,
+     "pool": "0x666aedbac5587b38889859663e3b72605e7663da",
+     "usdg": 4.3e-05
+    },
+    {
+     "fee": 100,
+     "pool": "0xe187202cae5587c2b482747b1d11ec506d730eaf",
+     "usdg": 4.3e-05
+    }
+   ]
+  },
+  {
+   "symbol": "JNJ",
+   "name": "Johnson & Johnson",
+   "address": "0x03dfbbe0ac4e7bcdafd08ed41a400326b77d8c80",
+   "pools": [
+    {
+     "fee": 3000,
+     "pool": "0x7f0ace18d1dced47063cf26e649bc8ab14d09e67",
+     "usdg": 11540.993528
+    },
+    {
+     "fee": 10000,
+     "pool": "0x8d39388ef11bb78843130bd74ab0e5d89fa76b30",
+     "usdg": 5935.519889
+    },
+    {
+     "fee": 500,
+     "pool": "0x44d79f520eacc47fe958d6ea88b4ed1271971c1e",
+     "usdg": 0.005434
+    }
+   ]
+  },
+  {
+   "symbol": "VTI",
+   "name": "Vanguard Morningstar Total Stock Market ETF",
+   "address": "0x0594134df3f171a354d9c85ebd65b7a6148f6d09",
+   "pools": [
+    {
+     "fee": 10000,
+     "pool": "0xb78dd1a97fa544c65d7d1f12453ecaaf1e05c36d",
+     "usdg": 10463.034339
+    }
+   ]
+  },
+  {
+   "symbol": "V",
+   "name": "Visa",
+   "address": "0x9bff87700337babf5099e99f322f888dafb1d551",
+   "pools": [
+    {
+     "fee": 3000,
+     "pool": "0xfe67885765c29c25a589d99003c19c082664c26f",
+     "usdg": 9764.366639
+    }
+   ]
+  },
+  {
+   "symbol": "TTWO",
+   "name": "Take-Two Interactive Software",
+   "address": "0x5e81213613b6b86eab4c6c50d718d34359459786",
+   "pools": [
+    {
+     "fee": 3000,
+     "pool": "0xd9ab4b7fae6dc2f7020134ec744a8f53ef3e5e24",
+     "usdg": 8543.171595
+    },
+    {
+     "fee": 500,
+     "pool": "0xd715802a12a73ceafe7579912a28d65d2ab5cc57",
+     "usdg": 0.455323
+    },
+    {
+     "fee": 10000,
+     "pool": "0x0889178e5cf9408ead5d0d1e8c6ff29e113388af",
+     "usdg": 2.8e-05
+    },
+    {
+     "fee": 100,
+     "pool": "0xc53917de3655cfedc7f5b2a9b041909fa4c1b530",
+     "usdg": 3e-06
+    }
+   ]
+  },
+  {
+   "symbol": "NET",
+   "name": "Cloudflare, Inc. Class A common stock",
+   "address": "0x116f00968269b7bfbad4109ce591d6e74c0601d4",
+   "pools": [
+    {
+     "fee": 3000,
+     "pool": "0xa9caebb1b2fb2b954f192572b309aef1caf6a330",
+     "usdg": 8157.311425
+    },
+    {
+     "fee": 10000,
+     "pool": "0x06abd56348164c673058dd5750812b059c054ca5",
+     "usdg": 4682.47361
+    },
+    {
+     "fee": 100,
+     "pool": "0xfdb45d6c7c27144c1ba128f38745b0bfc3a8f18f",
+     "usdg": 6e-06
+    }
+   ]
+  },
+  {
+   "symbol": "PFE",
+   "name": "Pfizer",
+   "address": "0x7066a64c24e4206cd62e83bf198c1e7eb361f51e",
+   "pools": [
+    {
+     "fee": 3000,
+     "pool": "0xc7d573fcda6d2107c97fb582ae18411f9db32e7f",
+     "usdg": 8138.963461
+    },
+    {
+     "fee": 10000,
+     "pool": "0xa26df7296ef5dfc727f3bc6f1e9050e6b62e6abf",
+     "usdg": 2131.889648
+    }
+   ]
+  },
+  {
+   "symbol": "FIG",
+   "name": "Figma",
+   "address": "0x41f4267525a8aff329540ef24fd83d9044758b33",
+   "pools": [
+    {
+     "fee": 3000,
+     "pool": "0xca5904c0a9d42f0ec1bf760fdf779907877144fd",
+     "usdg": 7945.971795
+    },
+    {
+     "fee": 10000,
+     "pool": "0x0f0e07a687d3210a3b9b5c40c11bce39b2674517",
+     "usdg": 0.003172
+    }
+   ]
+  },
+  {
+   "symbol": "LMT",
+   "name": "Lockheed",
+   "address": "0x329fcaceb9ad6f9580dd5f643fed0646900d043c",
+   "pools": [
+    {
+     "fee": 3000,
+     "pool": "0x54f160bea60ec5207918c539d86e0b906b4da297",
+     "usdg": 7146.967749
+    },
+    {
+     "fee": 10000,
+     "pool": "0x68688654b6050739527b448c9ff98a882d8c357c",
+     "usdg": 3.8e-05
+    },
+    {
+     "fee": 100,
+     "pool": "0x40567898b0c6ea66798e78ffcf076c55604bcd0c",
+     "usdg": 2.2e-05
+    },
+    {
+     "fee": 500,
+     "pool": "0x24c1cf38eba9841fa3e7379fc1da832eb97d3f14",
+     "usdg": 5e-06
+    }
+   ]
+  },
+  {
+   "symbol": "RIVN",
+   "name": "Rivian Automotive",
+   "address": "0xb1bf26c1d20ff267a4f93550d1e0d06ac40a114b",
+   "pools": [
+    {
+     "fee": 3000,
+     "pool": "0xf9e71558eef115b6c8fbfc9ad5fda00033e9d69c",
+     "usdg": 6498.882555
+    },
+    {
+     "fee": 10000,
+     "pool": "0xb30a75b200d98a600a3766869344928e35823e23",
+     "usdg": 1260.943216
+    },
+    {
+     "fee": 100,
+     "pool": "0x6e3dfc2fbfc48cc10f28025472256e64ae2c5991",
+     "usdg": 8e-06
+    }
+   ]
+  },
+  {
+   "symbol": "ASML",
+   "name": "ASML Holding NV",
+   "address": "0x47f93d52cbec7c6d2cfc080e154002370a60daea",
+   "pools": [
+    {
+     "fee": 10000,
+     "pool": "0xedb22516b14eb2d1c86927db373b0e8bf70f5cd1",
+     "usdg": 5878.329662
+    },
+    {
+     "fee": 3000,
+     "pool": "0xce79c1b7b5f9ae1aab3b1796e7fcd2f5f24cf265",
+     "usdg": 234.956438
+    }
+   ]
+  },
+  {
+   "symbol": "BA",
+   "name": "Boeing",
+   "address": "0x4d21483a44bf67a86b77e3da301411880797d452",
+   "pools": [
+    {
+     "fee": 3000,
+     "pool": "0xc6517047b189c72d3baa9ef37d1d28f27a63638a",
+     "usdg": 5671.456017
+    },
+    {
+     "fee": 10000,
+     "pool": "0xbf3904cad0e63a4796cf806c21f2c1528b8ebe06",
+     "usdg": 441.151925
+    }
+   ]
+  },
+  {
+   "symbol": "BB",
+   "name": "Blackberry",
+   "address": "0x48e39e56acdba37b09020c0b734a613c9a2f100a",
+   "pools": [
+    {
+     "fee": 10000,
+     "pool": "0xc424e56e816f148a8b30ccbde2128e04d21f51e9",
+     "usdg": 5667.798496
+    },
+    {
+     "fee": 3000,
+     "pool": "0xa087e1e7770d20e1d1821cb88e99db01adaa10a0",
+     "usdg": 1.3e-05
+    }
+   ]
+  },
+  {
+   "symbol": "NU",
+   "name": "Nu",
+   "address": "0x408c14038a04f7bd235329e26d2bf569ee20e250",
+   "pools": [
+    {
+     "fee": 10000,
+     "pool": "0xb6d047637151f6de1d02028acdd187aa9cb7afe3",
+     "usdg": 4916.139891
+    },
+    {
+     "fee": 3000,
+     "pool": "0x0e3faed512e7909758eb924e6919e0057bd6b45e",
+     "usdg": 1855.364929
+    }
+   ]
+  },
+  {
+   "symbol": "SNDK",
+   "name": "Sandisk Corporation",
+   "address": "0xb90a19ff0af67f7779aff50a882a9cff42446400",
+   "pools": [
+    {
+     "fee": 10000,
+     "pool": "0xa1e1c9519cd5ae47e9a935645e1a7b935b944559",
+     "usdg": 4433.050639
+    },
+    {
+     "fee": 3000,
+     "pool": "0xc9f2e2229ef638a7629185c9b222ad2eeec39b74",
+     "usdg": 6e-06
+    }
+   ]
+  },
+  {
+   "symbol": "CCL",
+   "name": "Carnival Corporation",
+   "address": "0x9651342cea770ae9a2969ba2a52611523146aef9",
+   "pools": [
+    {
+     "fee": 10000,
+     "pool": "0xb19ace635ef3a28b85bfb01bae97d0de80750680",
+     "usdg": 3930.972065
+    },
+    {
+     "fee": 3000,
+     "pool": "0x7b87ec8bc343dbf930d4f87b1ef1388787bf9d35",
+     "usdg": 4.9e-05
+    }
+   ]
+  },
+  {
+   "symbol": "RCAT",
+   "name": "Red Cat",
+   "address": "0xfde6b5d9bb419b10c23268c74e369abff39c0460",
+   "pools": [
+    {
+     "fee": 10000,
+     "pool": "0x64710a70839585af718e1b1faef9e7f1665f1116",
+     "usdg": 3454.326846
+    }
+   ]
+  },
+  {
+   "symbol": "ON",
+   "name": "ON Semiconductor",
+   "address": "0xbbd09f72b025360fee5c928053dca6248d35be54",
+   "pools": [
+    {
+     "fee": 10000,
+     "pool": "0xfce637eead7d62d9ed27f81d9767de03e9e534cf",
+     "usdg": 3246.263761
+    }
+   ]
+  },
+  {
+   "symbol": "MRVL",
+   "name": "Marvell Technology",
+   "address": "0x62fd0668e10d8b72339be2dcf7643001688ff13b",
+   "pools": [
+    {
+     "fee": 10000,
+     "pool": "0x06cc0b96be1fa1d754ce2e1228f5d8c616f795b0",
+     "usdg": 2163.017371
+    },
+    {
+     "fee": 3000,
+     "pool": "0xb5e892f0fc6daadda5b927266fe7907e623e4843",
+     "usdg": 2003.184179
+    }
+   ]
+  },
+  {
+   "symbol": "SHOP",
+   "name": "Shopify",
+   "address": "0xf53f66751b1eff985311b693531e3290f600c410",
+   "pools": [
+    {
+     "fee": 10000,
+     "pool": "0x18a1afa849a6940870c2163b7ecbcc85d455ad99",
+     "usdg": 2035.702637
+    }
+   ]
+  },
+  {
+   "symbol": "WULF",
+   "name": "TeraWulf",
+   "address": "0x348be1a8663f15edde5cdf8a96bb69078f7ab6fd",
+   "pools": [
+    {
+     "fee": 10000,
+     "pool": "0x0c72e22d7a3ef8bb845478e5d77aec87789defc6",
+     "usdg": 1640.11057
+    }
+   ]
+  },
+  {
+   "symbol": "COIN",
+   "name": "Coinbase",
+   "address": "0x6330d8c3178a418788df01a47479c0ce7ccf450b",
+   "pools": [
+    {
+     "fee": 500,
+     "pool": "0x3a6ec0aa6c702323414d449b5f60f4b742a82ded",
+     "usdg": 1048.429913
+    },
+    {
+     "fee": 3000,
+     "pool": "0x5c51a0035051fa2db80aec8781be3bd6207d27e0",
+     "usdg": 2.3e-05
+    },
+    {
+     "fee": 100,
+     "pool": "0x1aa941420f6347cf004e2d21e40f0632d8862cf8",
+     "usdg": 4e-06
+    },
+    {
+     "fee": 10000,
+     "pool": "0xb649fe35ff2855adef4c9a140f86e3248fafc910",
+     "usdg": 1e-06
+    }
+   ]
+  },
+  {
+   "symbol": "INDA",
+   "name": "iShares MSCI India ETF",
+   "address": "0xacef2e09adb47ad6abebad9ff06689e60615c2b6",
+   "pools": [
+    {
+     "fee": 3000,
+     "pool": "0x2171c94d8073c4913f4653a0766d18aa8a29d1f6",
+     "usdg": 527.944022
+    },
+    {
+     "fee": 500,
+     "pool": "0x07c3a3a6eeb2f122493f32418fbf136403608cb8",
+     "usdg": 0.002141
+    },
+    {
+     "fee": 10000,
+     "pool": "0xff2c1a42d9f3ac3d338d8ce4e44607cb8c333f45",
+     "usdg": 0.000123
+    }
+   ]
+  },
+  {
+   "symbol": "JPM",
+   "name": "JPMorgan Chase",
+   "address": "0x07c44da0848960bff894f17584db8b2f60b2409e",
+   "pools": [
+    {
+     "fee": 3000,
+     "pool": "0x3ebdbc2a316f87baed3a9d1229e03b0a49a27ec3",
+     "usdg": 480.159676
+    }
+   ]
+  },
+  {
+   "symbol": "SOXX",
+   "name": "iShares Semiconductor ETF",
+   "address": "0x75742c18bc1f1c5c5f448f4c9d9c6f66dafaaa38",
+   "pools": [
+    {
+     "fee": 3000,
+     "pool": "0x0663e66c880e27a5ce3c4c25234ab64ead7dff67",
+     "usdg": 387.318703
+    },
+    {
+     "fee": 10000,
+     "pool": "0x563a3154bc09d2a2364b9a2a5766148f4e89be77",
+     "usdg": 0.298697
+    }
+   ]
+  },
+  {
+   "symbol": "CEG",
+   "name": "Constellation Energy",
+   "address": "0xae517a2903e68bd929dfd15be875f8369d53e94a",
+   "pools": [
+    {
+     "fee": 10000,
+     "pool": "0xc9529b7dc74bf15da6cee01a282908e8c7ab6ba3",
+     "usdg": 173.62441
+    }
+   ]
+  },
+  {
+   "symbol": "XOM",
+   "name": "ExxonMobil Holdings Corporation",
+   "address": "0xf9b46d3d1b22199d4d1025a9cedb540a33f1a2d5",
+   "pools": [
+    {
+     "fee": 3000,
+     "pool": "0x2e8d684e3c689cc0a2a32fb266eca2845d4b0dbe",
+     "usdg": 87.945171
+    },
+    {
+     "fee": 10000,
+     "pool": "0x6af79a2c154e7eea9c87b38617d5f0b598b690fb",
+     "usdg": 0.911185
+    }
+   ]
+  },
+  {
+   "symbol": "CLOV",
+   "name": "Clover Health Investments",
+   "address": "0x62200915e7deab1ec7f79fb246dadbb80eacddd0",
+   "pools": [
+    {
+     "fee": 10000,
+     "pool": "0xbdfbc71db927fd566080ac21c6a2a89ae061f940",
+     "usdg": 27.67985
+    }
+   ]
+  },
+  {
+   "symbol": "HPE",
+   "name": "HP Enterprise",
+   "address": "0x59dd09d4900c2e4b5f75b7c0d4e6796fcc234cb1",
+   "pools": [
+    {
+     "fee": 3000,
+     "pool": "0xe0e25884a3b690b1699732de475b2281600b0934",
+     "usdg": 5.736416
+    },
+    {
+     "fee": 10000,
+     "pool": "0x9bd9061794310d98b7b8f2abeb8056225bc73bee",
+     "usdg": 0.627315
+    }
+   ]
+  },
+  {
+   "symbol": "WYFI",
+   "name": "WhiteFiber, Inc.",
+   "address": "0x9e7abd3c9139d14e4c86dce0e455aab7a0c2fb3e",
+   "pools": [
+    {
+     "fee": 10000,
+     "pool": "0xe7071e2fe49f86fbbe701053f98a73eb4124a6bd",
+     "usdg": 5.034972
+    },
+    {
+     "fee": 3000,
+     "pool": "0x2a3063e34c60253abb23c2442f4cdfbc5cbd02c2",
+     "usdg": 0.008394
+    }
+   ]
+  },
+  {
+   "symbol": "POET",
+   "name": "POET Technologies",
+   "address": "0xcf6b2d875361be807eafa57458c80f28521f9333",
+   "pools": [
+    {
+     "fee": 10000,
+     "pool": "0xa1c781ed62ac2d0283f50ff5a843647a56ddd80a",
+     "usdg": 2.600989
+    }
+   ]
+  },
+  {
+   "symbol": "DDOG",
+   "name": "Datadog",
+   "address": "0x27c99fbde9d0d2aa4f4bfb4943f237843ddf6958",
+   "pools": [
+    {
+     "fee": 10000,
+     "pool": "0xb9a8b0a8a724f0813cef2c9bfef102087a33753e",
+     "usdg": 1.061089
+    },
+    {
+     "fee": 3000,
+     "pool": "0x8fbf4c8e6ee5a95f0d23ef7a065fe266fc59f680",
+     "usdg": 0.000133
+    },
+    {
+     "fee": 500,
+     "pool": "0x9ccf7423c06bd2ffdbdab31fbc8b95d9f163a06c",
+     "usdg": 3.4e-05
+    }
+   ]
+  },
+  {
+   "symbol": "XLK",
+   "name": "State Street Technology Select Sector SPDR ETF",
+   "address": "0x15cd20759ce7f3285c29a319de2d1a2e098c6f43",
+   "pools": [
+    {
+     "fee": 10000,
+     "pool": "0xe20463635ceeea8e30a315ffc4d4e81c80e53147",
+     "usdg": 0.55698
+    }
+   ]
+  },
+  {
+   "symbol": "UMC",
+   "name": "United Microelectronics",
+   "address": "0x0e6e67ba88e7b5d9b67636a215c76779b948de79",
+   "pools": [
+    {
+     "fee": 10000,
+     "pool": "0xd95a760934ddf6818176d51c12e89520dd7bac44",
+     "usdg": 0.512148
+    }
+   ]
+  },
+  {
+   "symbol": "SCHD",
+   "name": "Schwab US Dividend Equity ETF",
+   "address": "0xd63abb2c13d7a8421a8017a712802053568e3c1d",
+   "pools": [
+    {
+     "fee": 10000,
+     "pool": "0x359555e1fa3f28d5a25091dd9f6d350cb66566cf",
+     "usdg": 0.50029
+    },
+    {
+     "fee": 3000,
+     "pool": "0x66d39bd0f5b90ece7887bda7f714ae5521e1cc97",
+     "usdg": 2e-06
+    }
+   ]
+  },
+  {
+   "symbol": "SMH",
+   "name": "VanEck Semiconductor ETF",
+   "address": "0x072f979c2cac8e1391b0162a87fee094bf8744a0",
+   "pools": [
+    {
+     "fee": 10000,
+     "pool": "0xf9d5f058099707f60740c09bf67b32967971dc63",
+     "usdg": 0.440327
+    }
+   ]
+  },
+  {
+   "symbol": "NOW",
+   "name": "ServiceNow",
+   "address": "0x0c3260af4b8f13a69c4c2dfb84fd667890cdfa14",
+   "pools": [
+    {
+     "fee": 10000,
+     "pool": "0x00ed6c6954edf77ffa945696f1eacf08edcc8d3a",
+     "usdg": 0.373576
+    }
+   ]
+  },
+  {
+   "symbol": "FLY",
+   "name": "Firefly Aerospace Inc.",
+   "address": "0x03bc731ffb162cdd7b98d3c6542bfc291126075d",
+   "pools": [
+    {
+     "fee": 10000,
+     "pool": "0x3594f65fe47577202c17bafb18e5096b44dcee6d",
+     "usdg": 0.36394
+    },
+    {
+     "fee": 3000,
+     "pool": "0x76e92f3a0f088aafc1b81d37bdffc24b939c53fd",
+     "usdg": 0.001102
+    }
+   ]
+  },
+  {
+   "symbol": "PWR",
+   "name": "Quanta",
+   "address": "0x9ab02ead789b6903c3c44d0ed32f9c707cdf12fd",
+   "pools": [
+    {
+     "fee": 10000,
+     "pool": "0x5cc24380a863119148723d2970ab712e4949b12c",
+     "usdg": 0.344629
+    }
+   ]
+  },
+  {
+   "symbol": "RKLB",
+   "name": "Rocket Lab Corporation",
+   "address": "0x3b14c39e89d60d627b42a1a4ca45b5bb45fc12e2",
+   "pools": [
+    {
+     "fee": 10000,
+     "pool": "0xa9888de1b9d64a93eaeb495a39fe9b3d00654928",
+     "usdg": 0.317924
+    }
+   ]
+  },
+  {
+   "symbol": "SOFI",
+   "name": "SoFi Technologies",
+   "address": "0x98e75885157c80992a8d41b696d8c9c6fb30a926",
+   "pools": [
+    {
+     "fee": 10000,
+     "pool": "0xea9368e1c88bce7f04d16919eb131778a0df826a",
+     "usdg": 0.312885
+    },
+    {
+     "fee": 3000,
+     "pool": "0xb6beacc9409a3198947885cf983c92bcce182e70",
+     "usdg": 2e-06
+    }
+   ]
+  },
+  {
+   "symbol": "CLS",
+   "name": "Celestica",
+   "address": "0xbf449977089c718c004a66c554b26b94ef3ad4de",
+   "pools": [
+    {
+     "fee": 10000,
+     "pool": "0xaea7d4e856a1fc2bd23c7ea26a3433464de0428f",
+     "usdg": 0.297684
+    }
+   ]
+  },
+  {
+   "symbol": "VRT",
+   "name": "Vertiv",
+   "address": "0xfa78c12e6488814a0262e4e802749a4a737d5fb7",
+   "pools": [
+    {
+     "fee": 10000,
+     "pool": "0xb15e0e29161917d36bbbc496ae482dce2c77c875",
+     "usdg": 0.290552
+    }
+   ]
+  },
+  {
+   "symbol": "MPWR",
+   "name": "Monolithic Power Systems",
+   "address": "0x52d50d0280ad1054b43f052bd70a49a212a1b128",
+   "pools": [
+    {
+     "fee": 10000,
+     "pool": "0x56ad01ae395869ae9c491a007c36be3b839a14a6",
+     "usdg": 0.273942
+    }
+   ]
+  },
+  {
+   "symbol": "ANET",
+   "name": "Arista",
+   "address": "0x28babd556b60e53663b8615036479a29c2cdd1bf",
+   "pools": [
+    {
+     "fee": 10000,
+     "pool": "0x6369190700480ae579a331adfcdb7967255186dd",
+     "usdg": 0.266395
+    },
+    {
+     "fee": 3000,
+     "pool": "0x1de444d502d76313aa00b4c3d556d28b2395c814",
+     "usdg": 7e-06
+    }
+   ]
+  },
+  {
+   "symbol": "ADBE",
+   "name": "Adobe",
+   "address": "0x232b8ed6377be97813853b0ac104c4cda8378d1b",
+   "pools": [
+    {
+     "fee": 10000,
+     "pool": "0xd25e11e45f42660668acc3db09dfe56f890f2e58",
+     "usdg": 0.246989
+    }
+   ]
+  },
+  {
+   "symbol": "FTNT",
+   "name": "Fortinet",
+   "address": "0x3fb8976980d486084b2eb4a404bd12e72823958f",
+   "pools": [
+    {
+     "fee": 10000,
+     "pool": "0x4f2e6b13f5b9595caee276e14f9f457e17484503",
+     "usdg": 0.23383
+    }
+   ]
+  },
+  {
+   "symbol": "PATH",
+   "name": "UiPath",
+   "address": "0xfb2664f07b6aadd29ea7a59d8859b1aeb8645cda",
+   "pools": [
+    {
+     "fee": 10000,
+     "pool": "0x85e93fa4a14b266643b8c9bace0312425815e72e",
+     "usdg": 0.15783
+    }
+   ]
+  },
+  {
+   "symbol": "FIX",
+   "name": "Comfort Systems",
+   "address": "0x93dbb1d2dc5d63f4abacff30485273f538df68ac",
+   "pools": [
+    {
+     "fee": 10000,
+     "pool": "0x745104601f86be0b2392c916442a922f2923fa6c",
+     "usdg": 0.14124
+    },
+    {
+     "fee": 3000,
+     "pool": "0xc70570871ff437face87172a4ef6d9b623f1bd81",
+     "usdg": 2e-06
+    }
+   ]
+  },
+  {
+   "symbol": "IONQ",
+   "name": "IonQ",
+   "address": "0x558378e000d634a36593e338ebacdd6207640efe",
+   "pools": [
+    {
+     "fee": 10000,
+     "pool": "0xbc44b11f569d3feed9b4088f5a3fc569d2e3c77f",
+     "usdg": 0.114454
+    }
+   ]
+  },
+  {
+   "symbol": "HWM",
+   "name": "Howmet Aerospace",
+   "address": "0xaea445c5f3db1a462998ccc422a875a361ee5d99",
+   "pools": [
+    {
+     "fee": 10000,
+     "pool": "0xdaab22b473029a8f8f00cbe3a33de82dbbeb6ec9",
+     "usdg": 0.108724
+    },
+    {
+     "fee": 3000,
+     "pool": "0xc07d223e0dac22442900637e8a0585b81875c56a",
+     "usdg": 2e-06
+    }
+   ]
+  },
+  {
+   "symbol": "AMAT",
+   "name": "Applied Materials",
+   "address": "0x36046893810a7e7fce501229d57dc3fc8c8716d0",
+   "pools": [
+    {
+     "fee": 10000,
+     "pool": "0xa255bafb65f9c79047ec74814e456e53713c8cb3",
+     "usdg": 0.02726
+    },
+    {
+     "fee": 3000,
+     "pool": "0x610145af25feefd56e83438b2d4ebf9116372947",
+     "usdg": 2e-06
+    }
+   ]
+  },
+  {
+   "symbol": "QCOM",
+   "name": "Qualcomm",
+   "address": "0x0f17206447090e464c277571124dd2688e48aea9",
+   "pools": [
+    {
+     "fee": 10000,
+     "pool": "0xff3ab07dd9c241a72d42b3841814bf800494607a",
+     "usdg": 0.014479
+    },
+    {
+     "fee": 3000,
+     "pool": "0xc87e9efd6cdf9bd69b0aeb725b21c60915143a97",
+     "usdg": 2.6e-05
+    }
+   ]
+  },
+  {
+   "symbol": "SNOW",
+   "name": "Snowflake",
+   "address": "0xba0cab75495255d0cb58e22b648bfed4ecd1f47e",
+   "pools": [
+    {
+     "fee": 3000,
+     "pool": "0xe0ca1dfc1161500fb410c8181f7cc33860ffb16b",
+     "usdg": 0.007195
+    },
+    {
+     "fee": 10000,
+     "pool": "0x65bc70bd85b0c8e9aa023155ac4e15af7b6a29a2",
+     "usdg": 3.9e-05
+    }
+   ]
+  },
+  {
+   "symbol": "GLW",
+   "name": "Corning",
+   "address": "0x7c04e6a3368f2a1de3874f0e80d2e0a1a9915da6",
+   "pools": [
+    {
+     "fee": 10000,
+     "pool": "0x5f15120b65498573dd0770f92646077a76b60724",
+     "usdg": 0.006999
+    }
+   ]
+  },
+  {
+   "symbol": "NBIS",
+   "name": "Nebius Group",
+   "address": "0x9d9c6684f596f66a64c030b93a886d51fd4d7931",
+   "pools": [
+    {
+     "fee": 10000,
+     "pool": "0x0dda7c6a2cce72abbfa88394afe407ff98417448",
+     "usdg": 0.006316
+    }
+   ]
+  },
+  {
+   "symbol": "UNH",
+   "name": "UnitedHealth",
+   "address": "0xcf364ea52787e289de6f32077834056e3e70d6a8",
+   "pools": [
+    {
+     "fee": 10000,
+     "pool": "0x33f75741614dd041d34468e816da9840e6423ad4",
+     "usdg": 0.004061
+    },
+    {
+     "fee": 3000,
+     "pool": "0x3df7e1ab1ae44cfedff3e106007eb246682e21c8",
+     "usdg": 2e-06
+    }
+   ]
+  },
+  {
+   "symbol": "AAOI",
+   "name": "Applied Optoelectronics",
+   "address": "0x521cf887e6531c6f667b5bc4d896e5d9bfe8eb2e",
+   "pools": [
+    {
+     "fee": 10000,
+     "pool": "0x078c1690865964838ae346077046750846a552d1",
+     "usdg": 0.003509
+    },
+    {
+     "fee": 3000,
+     "pool": "0x455928e891dc22686cd2102690c4cf0e6588b3ce",
+     "usdg": 2e-06
+    }
+   ]
+  },
+  {
+   "symbol": "AEIS",
+   "name": "Advanced Energy",
+   "address": "0xfaf9cb261b5fcc1f404bb10cd39c5c6c1974e612",
+   "pools": [
+    {
+     "fee": 3000,
+     "pool": "0x463be69021bc96198a219cdd498955a44e92f37b",
+     "usdg": 0.002882
+    },
+    {
+     "fee": 10000,
+     "pool": "0x803c27544ea2f41df24c08aff45451e0b17b45ed",
+     "usdg": 3.5e-05
+    }
+   ]
+  },
+  {
+   "symbol": "PANW",
+   "name": "Palo Alto Networks",
+   "address": "0xb039597ed45cba7b6e2fb9e8be51802969cee5be",
+   "pools": [
+    {
+     "fee": 10000,
+     "pool": "0x178723ec752ae010e95a183c3cf3b13ddca23449",
+     "usdg": 0.002652
+    }
+   ]
+  },
+  {
+   "symbol": "NVTS",
+   "name": "Navitas Semiconductor",
+   "address": "0xbe6702d7b70315376dc48a3293f24f0982f86386",
+   "pools": [
+    {
+     "fee": 10000,
+     "pool": "0xa6db97fb3e2dcb5de6ec43b04be6aa151905dc17",
+     "usdg": 0.002152
+    }
+   ]
+  },
+  {
+   "symbol": "FLNC",
+   "name": "Fluence Energy",
+   "address": "0x282e87451e10fa6679bc7d76c69be44cd3fc777c",
+   "pools": [
+    {
+     "fee": 10000,
+     "pool": "0xcacd42c86e2d79b48a5e02b1ca36e0806cc95955",
+     "usdg": 0.00215
+    }
+   ]
+  },
+  {
+   "symbol": "COHR",
+   "name": "Coherent",
+   "address": "0x92f9f459f1a9a5ad266b182be7bffd1c6c666894",
+   "pools": [
+    {
+     "fee": 10000,
+     "pool": "0x22003c6509db36dc67523b2496993f6348fc7f92",
+     "usdg": 0.001865
+    }
+   ]
+  },
+  {
+   "symbol": "SMCI",
+   "name": "Super Micro Computer",
+   "address": "0xc01aa1fecec0605b13bc84874ff7256c0f5f562a",
+   "pools": [
+    {
+     "fee": 10000,
+     "pool": "0x9f0167da6d9738b57cba0833a541db77762fb7bb",
+     "usdg": 0.001751
+    }
+   ]
+  },
+  {
+   "symbol": "SOUN",
+   "name": "SoundHound AI",
+   "address": "0x6e3dfd9f7e1649baa14d25cac18c94d62db10a54",
+   "pools": [
+    {
+     "fee": 10000,
+     "pool": "0xb30e0bc08287370ac89ab8e22e56ee2420532ac6",
+     "usdg": 0.001728
+    },
+    {
+     "fee": 3000,
+     "pool": "0xe4e5e1f8bb52c51ec86bf2d6494747fb4e6337bc",
+     "usdg": 0.001713
+    }
+   ]
+  },
+  {
+   "symbol": "PENG",
+   "name": "Penguin Solutions",
+   "address": "0x9b23573b156b52565012f5ce02cdf60afbaa70be",
+   "pools": [
+    {
+     "fee": 3000,
+     "pool": "0x1cd650500fa6f07646361f5f508aa6fbf7ddad36",
+     "usdg": 0.001477
+    },
+    {
+     "fee": 10000,
+     "pool": "0x10508f818e05193efd10a5ad360441067892551f",
+     "usdg": 4.8e-05
+    }
+   ]
+  },
+  {
+   "symbol": "PL",
+   "name": "Planet Labs",
+   "address": "0xaa4d64474c172010ab57719cb9951e6142a100d3",
+   "pools": [
+    {
+     "fee": 10000,
+     "pool": "0x0b5de42992cc18bfe63e62f6866c7e6b32cc3c9a",
+     "usdg": 0.001229
+    }
+   ]
+  },
+  {
+   "symbol": "JOBY",
+   "name": "Joby Aviation",
+   "address": "0xb334c5ce741b80b5b671f47f5c269cb193fe8e24",
+   "pools": [
+    {
+     "fee": 10000,
+     "pool": "0xade500b7d85db5048c6a1fb643c4e7be6c72147f",
+     "usdg": 0.001165
+    }
+   ]
+  },
+  {
+   "symbol": "AVAV",
+   "name": "AeroVironment",
+   "address": "0xf6290b5e7c26502e2da514c31509849718ea76a5",
+   "pools": [
+    {
+     "fee": 10000,
+     "pool": "0xb4a1331504e4282746c30b89c7f6e6a73adcff88",
+     "usdg": 0.001025
+    }
+   ]
+  },
+  {
+   "symbol": "CRM",
+   "name": "Salesforce",
+   "address": "0xd95b44124e475743a7589e68f3d74008a5536d44",
+   "pools": [
+    {
+     "fee": 10000,
+     "pool": "0xda68fba2d1bca00e3754937b5608ba61aee6e827",
+     "usdg": 0.001013
+    }
+   ]
+  },
+  {
+   "symbol": "SLS",
+   "name": "SELLAS Life Sciences",
+   "address": "0x285b231728c7e4333799183df1094d775246a535",
+   "pools": [
+    {
+     "fee": 10000,
+     "pool": "0x98e95b56f8b6601bc1d25bc2eb568ed0ff64279d",
+     "usdg": 0.000749
+    }
+   ]
+  },
+  {
+   "symbol": "BULL",
+   "name": "Webull",
+   "address": "0xcef9027c7d6985b85f0ba431125073529a947a68",
+   "pools": [
+    {
+     "fee": 10000,
+     "pool": "0x396e9f3c8cd496311ba3cd19901b2022fe265c2c",
+     "usdg": 0.000724
+    },
+    {
+     "fee": 3000,
+     "pool": "0x115aac1e54bba1e4d10834093147ad8b4b67312d",
+     "usdg": 1.1e-05
+    }
+   ]
+  },
+  {
+   "symbol": "ALAB",
+   "name": "Astera Labs, Inc.",
+   "address": "0x748c32c3ca24edf31ea597db1f3d330a7a6da3dc",
+   "pools": [
+    {
+     "fee": 10000,
+     "pool": "0xd8d7d0dc783ff547c5d7efb52368c386c160de43",
+     "usdg": 0.000658
+    },
+    {
+     "fee": 500,
+     "pool": "0xd4aa5c1a668793d746fd34813e250cc34f5ad105",
+     "usdg": 2e-06
+    }
+   ]
+  },
+  {
+   "symbol": "WDC",
+   "name": "Western Digital",
+   "address": "0xf52597345a8edf418bc4071b4a35112472277d3e",
+   "pools": [
+    {
+     "fee": 10000,
+     "pool": "0x0af0268a314362fe321bdb0539aac9a1fba119fd",
+     "usdg": 0.000536
+    }
+   ]
+  },
+  {
+   "symbol": "LHX",
+   "name": "L3Harris",
+   "address": "0x48d60243c66437c6ac3c2495be94747aed5dfe25",
+   "pools": [
+    {
+     "fee": 10000,
+     "pool": "0xe529ab9afdd8510954e59ff4d532510f685d1f5f",
+     "usdg": 0.000322
+    }
+   ]
+  },
+  {
+   "symbol": "RUN",
+   "name": "Sunrun",
+   "address": "0x756bc80af765c82da966a788858d65adf14f3793",
+   "pools": [
+    {
+     "fee": 10000,
+     "pool": "0xe6d0f53073041e12bc46759519499764a4b92d13",
+     "usdg": 0.000299
+    },
+    {
+     "fee": 3000,
+     "pool": "0x320ffc07584f5f3cdf68986d2f97b7dd9aed3cb0",
+     "usdg": 7e-06
+    }
+   ]
+  },
+  {
+   "symbol": "AMBA",
+   "name": "Ambarella",
+   "address": "0x99d9d8663545151603863c5acbd6fc3218899009",
+   "pools": [
+    {
+     "fee": 10000,
+     "pool": "0x814e6f0ab0505457f661063bda756266181fd7bb",
+     "usdg": 0.000222
+    }
+   ]
+  },
+  {
+   "symbol": "MDB",
+   "name": "MongoDB",
+   "address": "0xddf2266b79abf0b48898959b0ed6e6adf512be74",
+   "pools": [
+    {
+     "fee": 10000,
+     "pool": "0x2bb3e8b0406ee84646eea60df2c249e07aa473c8",
+     "usdg": 0.000127
+    },
+    {
+     "fee": 500,
+     "pool": "0x8b0901b44a68e500bff1014d615137dc9cf63519",
+     "usdg": 2e-06
+    }
+   ]
+  },
+  {
+   "symbol": "MOD",
+   "name": "Modine",
+   "address": "0xc6cbad1016b38b797610c25e1dc7d95988b1f362",
+   "pools": [
+    {
+     "fee": 10000,
+     "pool": "0x962403f3e10d89c3f7f5140f0cf6fcb466de91a1",
+     "usdg": 0.000105
+    }
+   ]
+  },
+  {
+   "symbol": "BMNR",
+   "name": "BitMine Immersion Technologies",
+   "address": "0x9a7842eded60b0fe1e03eec342c82a397c821ed0",
+   "pools": [
+    {
+     "fee": 3000,
+     "pool": "0x58e858d60d05c8f6200b7c70d4e9fc0870f5391a",
+     "usdg": 8.7e-05
+    }
+   ]
+  },
+  {
+   "symbol": "TE",
+   "name": "T1 Energy",
+   "address": "0xb1969f6604ca1ae7a2cd3f1827876e914594ca2d",
+   "pools": [
+    {
+     "fee": 10000,
+     "pool": "0x05346c2c9378a97304f192f90fe7b23edd253067",
+     "usdg": 8.4e-05
+    },
+    {
+     "fee": 3000,
+     "pool": "0xf15dfa4d3e8276068fc6101e21f7ac86349a94bd",
+     "usdg": 2e-06
+    }
+   ]
+  },
+  {
+   "symbol": "LITE",
+   "name": "Lumentum",
+   "address": "0x8ef20885f94e3d9bc7eb3080279188bd5ed7c08c",
+   "pools": [
+    {
+     "fee": 10000,
+     "pool": "0x48731d5732b6bd1ad3325c77cedcff131169783c",
+     "usdg": 7.9e-05
+    }
+   ]
+  },
+  {
+   "symbol": "OKLO",
+   "name": "Oklo",
+   "address": "0x8b2f88497f15a18e9d4ffa1a8ffb8538399ae774",
+   "pools": [
+    {
+     "fee": 10000,
+     "pool": "0x754799c74d8941ad42084ed3951f996f401de4a2",
+     "usdg": 7e-05
+    }
+   ]
+  },
+  {
+   "symbol": "TEM",
+   "name": "Tempus AI",
+   "address": "0xb1cc0ec7db69cf43539119814df40071b9d61793",
+   "pools": [
+    {
+     "fee": 10000,
+     "pool": "0xcbf1f76e933534689f8ea13766279e839b1bafd8",
+     "usdg": 6.8e-05
+    }
+   ]
+  },
+  {
+   "symbol": "QBTS",
+   "name": "D-Wave Quantum Inc. Common Stock",
+   "address": "0xc583c60aef9dc401da72cec1b404743a93cea1cc",
+   "pools": [
+    {
+     "fee": 10000,
+     "pool": "0x9eb22ad27148cb90423422ec8a4a2ecf267e96bf",
+     "usdg": 6.6e-05
+    },
+    {
+     "fee": 3000,
+     "pool": "0xb4f86417c58ccac2c240837064e7e4ca25107ed5",
+     "usdg": 1.2e-05
+    }
+   ]
+  },
+  {
+   "symbol": "SMR",
+   "name": "NuScale Power",
+   "address": "0x1eebee7f74517e0279dfb09d25b0407beec3fdd6",
+   "pools": [
+    {
+     "fee": 10000,
+     "pool": "0x5b366a8e7d2f8a3a54711a98f524826e9895b525",
+     "usdg": 6.4e-05
+    },
+    {
+     "fee": 3000,
+     "pool": "0x1ab74b51e40117b363fd774cda2b45a9895c6fec",
+     "usdg": 2e-06
+    }
+   ]
+  },
+  {
+   "symbol": "APP",
+   "name": "AppLovin",
+   "address": "0xa249baf1063af884807c1e1400aef7784836917e",
+   "pools": [
+    {
+     "fee": 10000,
+     "pool": "0x7caec5689e7daf976469769e45001e99314eaac8",
+     "usdg": 6.4e-05
+    }
+   ]
+  },
+  {
+   "symbol": "AXTI",
+   "name": "AXT",
+   "address": "0x141eea040c2250eec0314e336975e81f85f6585e",
+   "pools": [
+    {
+     "fee": 10000,
+     "pool": "0x0340bfc46e756f1dcc309ae43b78456885309c09",
+     "usdg": 6.3e-05
+    }
+   ]
+  },
+  {
+   "symbol": "KTOS",
+   "name": "Kratos Defense & Security Solutions",
+   "address": "0x7fd06a4d81ccfa3f351394e144d5191874c31313",
+   "pools": [
+    {
+     "fee": 10000,
+     "pool": "0xf99db64402bbaceceb6da21f941fa75d3596418a",
+     "usdg": 6e-05
+    }
+   ]
+  },
+  {
+   "symbol": "AMKR",
+   "name": "Amkor Technology",
+   "address": "0xdd356aa38f40a7b7076755ac854b6fbb1f0d305b",
+   "pools": [
+    {
+     "fee": 10000,
+     "pool": "0x2694b507bab020b37e72a84a6195fbced3093bb6",
+     "usdg": 5.1e-05
+    }
+   ]
+  },
+  {
+   "symbol": "APLD",
+   "name": "Applied Digital",
+   "address": "0xb8dbf92f9741c9ac1c32115e78581f23509916fd",
+   "pools": [
+    {
+     "fee": 10000,
+     "pool": "0x3b2ebc77d892cd02c913b9da9a8354d7925f4c8c",
+     "usdg": 5e-05
+    }
+   ]
+  },
+  {
+   "symbol": "CVNA",
+   "name": "Carvana",
+   "address": "0xa4f319104089fe321dc8093c6e707d4fe190a988",
+   "pools": [
+    {
+     "fee": 10000,
+     "pool": "0x808824415812648f537c2306fb67ed65d8d25f87",
+     "usdg": 5e-05
+    }
+   ]
+  },
+  {
+   "symbol": "SHY",
+   "name": "iShares 1-3 Year Treasury Bond ETF",
+   "address": "0xbe274710bf3d9567e1b290ef6a5f9f90ca016fd8",
+   "pools": [
+    {
+     "fee": 10000,
+     "pool": "0x8517c791b522b6a4c20bd1021ff1f6a442dacba6",
+     "usdg": 4.9e-05
+    },
+    {
+     "fee": 3000,
+     "pool": "0x6a67f96a4635cf95e9877579db5566acb9d47816",
+     "usdg": 4e-06
+    }
+   ]
+  },
+  {
+   "symbol": "OUST",
+   "name": "Ouster",
+   "address": "0x40e7a279850e443f582059ae5dc1c3b6563e6395",
+   "pools": [
+    {
+     "fee": 10000,
+     "pool": "0xbeba59ed4a9b3a4b7033384228c75bd9e7dcad20",
+     "usdg": 4.7e-05
+    }
+   ]
+  },
+  {
+   "symbol": "CIEN",
+   "name": "Ciena",
+   "address": "0x44f6d488021f8233b9416294d1fe9b1fee28382d",
+   "pools": [
+    {
+     "fee": 10000,
+     "pool": "0xbd7a539d199783b9e2a91de16de1050b52cc75ca",
+     "usdg": 4.6e-05
+    }
+   ]
+  },
+  {
+   "symbol": "AUR",
+   "name": "Aurora Innovation",
+   "address": "0x373c06c4f7bde527d7dae4ba169e42b55e393ced",
+   "pools": [
+    {
+     "fee": 10000,
+     "pool": "0x8cd2c46b8c52e3d143446e959ecf01396feb667a",
+     "usdg": 4.6e-05
+    }
+   ]
+  },
+  {
+   "symbol": "INFQ",
+   "name": "Infleqtion",
+   "address": "0xb853bc83a753342a4f8320ea680b4b1e84118d21",
+   "pools": [
+    {
+     "fee": 10000,
+     "pool": "0xcb52c90cfc9f0e1024fec25bb64fdbfc91a1c163",
+     "usdg": 4.5e-05
+    }
+   ]
+  },
+  {
+   "symbol": "VICR",
+   "name": "Vicor",
+   "address": "0x6006ed4b2f94110851ff7509d97d034f0eed9226",
+   "pools": [
+    {
+     "fee": 10000,
+     "pool": "0xf20c51f78aba822f1f73df47e0c4e2560da92771",
+     "usdg": 4.5e-05
+    }
+   ]
+  },
+  {
+   "symbol": "TER",
+   "name": "Teradyne",
+   "address": "0x2778c5024d5ca2cdb0f8ead671ffc69963adcd9c",
+   "pools": [
+    {
+     "fee": 10000,
+     "pool": "0x307ba38626c581e00ba03d70773253cf20624dde",
+     "usdg": 4.4e-05
+    },
+    {
+     "fee": 500,
+     "pool": "0xf8c24710be03ce888d60c550aafe5bfc769abee8",
+     "usdg": 2e-06
+    }
+   ]
+  },
+  {
+   "symbol": "NNE",
+   "name": "Nano Nuclear Energy",
+   "address": "0xbef75684c43c4ea7bd18dd532a2244674ee8b926",
+   "pools": [
+    {
+     "fee": 10000,
+     "pool": "0x8368991bf7f5380cecd4a6f4fc4ea151d62343bc",
+     "usdg": 4.3e-05
+    }
+   ]
+  },
+  {
+   "symbol": "DOCN",
+   "name": "DigitalOcean",
+   "address": "0xc02f12b9fe9e707079ec0d546f3050d3f6c1f8bd",
+   "pools": [
+    {
+     "fee": 10000,
+     "pool": "0xdebba94d2143ea05dd92ae67161b53112f770842",
+     "usdg": 4.3e-05
+    }
+   ]
+  },
+  {
+   "symbol": "ABCL",
+   "name": "Abcellera Biologics",
+   "address": "0x3139d77ace0cbaa5bdfd38bd1f1911a794af0b0e",
+   "pools": [
+    {
+     "fee": 10000,
+     "pool": "0x6ed779291769df8c1a3556f86f859192622505ff",
+     "usdg": 4.3e-05
+    }
+   ]
+  },
+  {
+   "symbol": "ASTS",
+   "name": "AST SpaceMobile",
+   "address": "0x1af6446f07eb1d97c546afc8c9544cbdf3ad5137",
+   "pools": [
+    {
+     "fee": 10000,
+     "pool": "0xb4c19c79b22310b5fb70959c3490149638e7bd14",
+     "usdg": 4.2e-05
+    },
+    {
+     "fee": 3000,
+     "pool": "0x046aaff7cf5254360d26894bdc4a2b4cea901b2b",
+     "usdg": 2e-06
+    }
+   ]
+  },
+  {
+   "symbol": "KSS",
+   "name": "Kohls Corporation",
+   "address": "0x12e3c047bf9aecaf9ddc98c05c31bfd1dd043993",
+   "pools": [
+    {
+     "fee": 10000,
+     "pool": "0xadf6351c8210a1c0d64d35ee9e2274b1cadf9b3c",
+     "usdg": 4.2e-05
+    }
+   ]
+  },
+  {
+   "symbol": "SPMO",
+   "name": "Invesco S&P 500 Momentum ETF",
+   "address": "0xad622320e520de39e72d41ef07438c3fd3354875",
+   "pools": [
+    {
+     "fee": 10000,
+     "pool": "0x727c8a9e0da8bb21be322d2bb5d891b126143b8c",
+     "usdg": 4.1e-05
+    }
+   ]
+  },
+  {
+   "symbol": "LRCX",
+   "name": "Lam Research Corp",
+   "address": "0x57b0030166db0c31690d1a5aa167e2e26e2c29a4",
+   "pools": [
+    {
+     "fee": 10000,
+     "pool": "0x2ae2cc53e5f8c151d4b07de63cb3f362c6400a79",
+     "usdg": 4e-05
+    }
+   ]
+  },
+  {
+   "symbol": "VSAT",
+   "name": "ViaSat",
+   "address": "0x26dcbfb34fc83cabd6990f449674efdc6097ff85",
+   "pools": [
+    {
+     "fee": 10000,
+     "pool": "0x51a48907b53054626b54098635714f3eb2f1485b",
+     "usdg": 3.9e-05
+    }
+   ]
+  },
+  {
+   "symbol": "POWL",
+   "name": "Powell Industries",
+   "address": "0x237c16d66590f67b886d978acd362eaead8b18c7",
+   "pools": [
+    {
+     "fee": 10000,
+     "pool": "0xa348700ed212c25d1b3feabde288746154440251",
+     "usdg": 3.8e-05
+    }
+   ]
+  },
+  {
+   "symbol": "AEHR",
+   "name": "Aehr",
+   "address": "0x5f604fba1162193a4388a5dfa56f556f3e133cc2",
+   "pools": [
+    {
+     "fee": 10000,
+     "pool": "0xf5954707e56f80d6e4ebd3609cf76bdb3769b7f5",
+     "usdg": 3.7e-05
+    }
+   ]
+  },
+  {
+   "symbol": "GE",
+   "name": "General Electric",
+   "address": "0x63b814ddbd6bf339f25fed8c36158a008d5b373e",
+   "pools": [
+    {
+     "fee": 10000,
+     "pool": "0xc04635d723149390530b637f000c530738dd95ef",
+     "usdg": 3.7e-05
+    }
+   ]
+  },
+  {
+   "symbol": "CLSK",
+   "name": "CleanSpark",
+   "address": "0xcbb95bbf36099d34da091dc6fa6f49efa257cee3",
+   "pools": [
+    {
+     "fee": 10000,
+     "pool": "0xf58a091afd28f26e7e2a60803e6dfb5a8e451021",
+     "usdg": 3.6e-05
+    }
+   ]
+  },
+  {
+   "symbol": "RGTI",
+   "name": "Rigetti Computing",
+   "address": "0x284358abc07f9359f19f4b5b4ac91901be2597ba",
+   "pools": [
+    {
+     "fee": 10000,
+     "pool": "0xb549d4eaf467277e48aa350f216e413df8c8ba12",
+     "usdg": 3.6e-05
+    }
+   ]
+  },
+  {
+   "symbol": "CELH",
+   "name": "Celsius",
+   "address": "0x8cf07c5a878945185d327aaa6e33faa95f95e7bf",
+   "pools": [
+    {
+     "fee": 10000,
+     "pool": "0xe36dbdc0d6d5ab3182b6c18ba14b65bd676cce02",
+     "usdg": 3.6e-05
+    }
+   ]
+  },
+  {
+   "symbol": "XNDU",
+   "name": "Xanadu Quantum",
+   "address": "0xa8eb3bccbf2017ee7cbfb652eb51cf2e1b153289",
+   "pools": [
+    {
+     "fee": 10000,
+     "pool": "0x69174bfcfacadfb056982c88c351549ef6308213",
+     "usdg": 3.4e-05
+    }
+   ]
+  },
+  {
+   "symbol": "KLAC",
+   "name": "KLA",
+   "address": "0x96b933c74ecb4a0926b9210cef7b743ef46be2e9",
+   "pools": [
+    {
+     "fee": 10000,
+     "pool": "0x6e592cc49f3484155b0da443fb9b7f0c300f9dc2",
+     "usdg": 3.4e-05
+    }
+   ]
+  },
+  {
+   "symbol": "INOD",
+   "name": "Innodata",
+   "address": "0xf1953dab6fad537488d5a022361ffaa8b4c95ec6",
+   "pools": [
+    {
+     "fee": 10000,
+     "pool": "0x47ec01141ea4d6325908bc5291a981b17ef2dad6",
+     "usdg": 3.2e-05
+    }
+   ]
+  },
+  {
+   "symbol": "MXL",
+   "name": "MaxLinear",
+   "address": "0x48961813349333209994750ffa89b3c5c22ec969",
+   "pools": [
+    {
+     "fee": 10000,
+     "pool": "0x5859a41c8063a82bd896bc3f39ede983856daaf6",
+     "usdg": 3.1e-05
+    }
+   ]
+  },
+  {
+   "symbol": "AXON",
+   "name": "Axon",
+   "address": "0xc27dbd474af5181c5a8777903690d8d262d12648",
+   "pools": [
+    {
+     "fee": 10000,
+     "pool": "0x1fd543d2a5b31f2e200cee133d54581a475bd88f",
+     "usdg": 3.1e-05
+    }
+   ]
+  },
+  {
+   "symbol": "ONTO",
+   "name": "Onto Innovation",
+   "address": "0x8ff63eaeee3fe54ba450c4f5538064ec5a893aef",
+   "pools": [
+    {
+     "fee": 10000,
+     "pool": "0x3084cf7a94e52a22a02d268c5e2413e4d2303e5f",
+     "usdg": 3.1e-05
+    }
+   ]
+  },
+  {
+   "symbol": "SIMO",
+   "name": "Silicon Motion",
+   "address": "0x77e655e37f4d913fb9540e0d541d824171a60e81",
+   "pools": [
+    {
+     "fee": 10000,
+     "pool": "0xa84fe55a03bb51eb640f8b624fe47b2777358d15",
+     "usdg": 3.1e-05
+    }
+   ]
+  },
+  {
+   "symbol": "LUNR",
+   "name": "Intuitive Machines",
+   "address": "0xa5d4968421ba94814be3b136b15cf422101ac1a3",
+   "pools": [
+    {
+     "fee": 10000,
+     "pool": "0xed48ccb8d9bb86c7e039b153c53cb1a1d8be85e5",
+     "usdg": 2.8e-05
+    },
+    {
+     "fee": 3000,
+     "pool": "0xd46f69ab6997df1b4185292703dece704099981b",
+     "usdg": 2e-06
+    }
+   ]
+  },
+  {
+   "symbol": "CSCO",
+   "name": "Cisco Systems",
+   "address": "0xf543967eebb6f1917992ef0e68de63ab07a5a0da",
+   "pools": [
+    {
+     "fee": 10000,
+     "pool": "0x9d181080aaa2d6086ac56c36e1a903bbdd77e69a",
+     "usdg": 2.8e-05
+    }
+   ]
+  },
+  {
+   "symbol": "RDW",
+   "name": "Redwire",
+   "address": "0x92ef19e82bd8ff36661de838d5eae7e5cef0effe",
+   "pools": [
+    {
+     "fee": 10000,
+     "pool": "0x71e15c0ed50142c772bee6195c936f04e4696f5d",
+     "usdg": 2.7e-05
+    }
+   ]
+  },
+  {
+   "symbol": "GEV",
+   "name": "GE Vernova",
+   "address": "0x94b8aae43a1ccc08aa64b7d1f29b4d920af4a0c9",
+   "pools": [
+    {
+     "fee": 10000,
+     "pool": "0xcf0396ae8b436e4534c3f1aacf186efc8ba2bca6",
+     "usdg": 2.7e-05
+    }
+   ]
+  },
+  {
+   "symbol": "TEAM",
+   "name": "Atlassian Corporation",
+   "address": "0x5b97476b922f3305131b8f0b9d333172e87f4aae",
+   "pools": [
+    {
+     "fee": 10000,
+     "pool": "0x56a8350cb1090bced0ac606d43fef0155e9136a1",
+     "usdg": 2.6e-05
+    }
+   ]
+  },
+  {
+   "symbol": "TTD",
+   "name": "Trade Desk",
+   "address": "0x0b5fb4031cae9163db10b169ee72685f0edc8545",
+   "pools": [
+    {
+     "fee": 10000,
+     "pool": "0x14f646736d0f326ea530f415e7127ca939794dd3",
+     "usdg": 2.6e-05
+    }
+   ]
+  },
+  {
+   "symbol": "ZS",
+   "name": "Zscaler",
+   "address": "0x7dc013eb55e436f30d7ed1afe4e36d6e45e3c3f7",
+   "pools": [
+    {
+     "fee": 10000,
+     "pool": "0xdf9a23295d5d66e8066370cea9349def9ccafdae",
+     "usdg": 2.4e-05
+    }
+   ]
+  },
+  {
+   "symbol": "EWT",
+   "name": "iShares MSCI Taiwan Capped ETF",
+   "address": "0x1c690498150252222c275a5ced69d3a6b1f52d5e",
+   "pools": [
+    {
+     "fee": 10000,
+     "pool": "0xe46891c34a895e988ff94ca79d20dcf1cfb02f64",
+     "usdg": 2.4e-05
+    }
+   ]
+  },
+  {
+   "symbol": "INTU",
+   "name": "Intuit",
+   "address": "0x56d23bee5f41a7120170b0c603dae30128e460e9",
+   "pools": [
+    {
+     "fee": 10000,
+     "pool": "0x235b2650e67570ef3bfd0b3024fc0ed0b0b24245",
+     "usdg": 2.3e-05
+    }
+   ]
+  },
+  {
+   "symbol": "CRDO",
+   "name": "Credo Technology Group",
+   "address": "0x4d67253bc223e6b0e104f1084c1fb2b669ddc41b",
+   "pools": [
+    {
+     "fee": 10000,
+     "pool": "0x56db8aca8ce66b913cbba8c7f1f499834d056f20",
+     "usdg": 2.3e-05
+    }
+   ]
+  },
+  {
+   "symbol": "FICO",
+   "name": "Fair Isaac",
+   "address": "0xa48f22a46c0f1c46ca7d111cb6c137c271987180",
+   "pools": [
+    {
+     "fee": 10000,
+     "pool": "0xf85f2f5716ca60a30b53193928d3f717343a378e",
+     "usdg": 2.2e-05
+    }
+   ]
+  },
+  {
+   "symbol": "MTSI",
+   "name": "MACOM",
+   "address": "0xc93f4d80e268ab922e871bd169156c3cc41894e6",
+   "pools": [
+    {
+     "fee": 10000,
+     "pool": "0x2e9aee43bb86006d772dae42e12a0d811470d7c1",
+     "usdg": 2.1e-05
+    }
+   ]
+  },
+  {
+   "symbol": "TSEM",
+   "name": "Tower Semiconductor",
+   "address": "0x89776d4cd68193597a2fc132cfac1fde36ccea8a",
+   "pools": [
+    {
+     "fee": 10000,
+     "pool": "0x350051ec863739e4875f255e760ad3514c10f110",
+     "usdg": 2e-05
+    },
+    {
+     "fee": 3000,
+     "pool": "0xcb2bb3e1bd5d5affcd45ad1f3be2db5fe9ebb227",
+     "usdg": 3e-06
+    }
+   ]
+  },
+  {
+   "symbol": "CRWV",
+   "name": "CoreWeave",
+   "address": "0x5f10a1c971b69e47e059e1dc91901b59b3fb49c3",
+   "pools": [
+    {
+     "fee": 3000,
+     "pool": "0x556e74940e01c4b449a97e9d0c5f3360af210bcd",
+     "usdg": 1.9e-05
+    }
+   ]
+  },
+  {
+   "symbol": "FISV",
+   "name": "Fiserv",
+   "address": "0x9ece29a4a2397c0a35fb5fa8ee2b9509130a98cc",
+   "pools": [
+    {
+     "fee": 10000,
+     "pool": "0x9bba88a4e122576f74c0d88c1989b6c2d6447044",
+     "usdg": 1.8e-05
+    }
+   ]
+  },
+  {
+   "symbol": "NAVN",
+   "name": "Navan",
+   "address": "0xf7181b63fdb858558a74ba96bc42732684cd7965",
+   "pools": [
+    {
+     "fee": 10000,
+     "pool": "0xfee5d6e12d1cee7eaf47904b5f4158460341b499",
+     "usdg": 1.8e-05
+    }
+   ]
+  },
+  {
+   "symbol": "VST",
+   "name": "Vistra",
+   "address": "0x561e2a49212b7ccf47f2744ccb83e200722fadbc",
+   "pools": [
+    {
+     "fee": 10000,
+     "pool": "0xba154b0c9f1e8242ba064ead09756567efbc7171",
+     "usdg": 1.8e-05
+    }
+   ]
+  },
+  {
+   "symbol": "IBRX",
+   "name": "ImmunityBio,",
+   "address": "0x7c148f74ac7445d1f28366b7fcdc6792a9fcd0cf",
+   "pools": [
+    {
+     "fee": 10000,
+     "pool": "0x86509c1cc350a928fa6472d72a6915c31e8340f0",
+     "usdg": 1.6e-05
+    }
+   ]
+  },
+  {
+   "symbol": "IREN",
+   "name": "IREN Limited",
+   "address": "0xf0ab0c93be6f41369d302e55db1a96b3c430212d",
+   "pools": [
+    {
+     "fee": 10000,
+     "pool": "0x0dbe9eeea89c6ef5cd2ffcdf800e6f2548524cdb",
+     "usdg": 1.5e-05
+    }
+   ]
+  },
+  {
+   "symbol": "EWY",
+   "name": "iShares MSCI South Korea fund",
+   "address": "0x7f0abef0c07280f82c6a08ead09ded6bae2c13fc",
+   "pools": [
+    {
+     "fee": 10000,
+     "pool": "0x23a254c637ef0f13f6259586f059fff52b89ed6b",
+     "usdg": 1.5e-05
+    },
+    {
+     "fee": 3000,
+     "pool": "0xe180b7fd9acc014d9fbd0d46a9038edb30008482",
+     "usdg": 4e-06
+    }
+   ]
+  },
+  {
+   "symbol": "P",
+   "name": "Everpure",
+   "address": "0x1cdad396db64bda184d5182a97dd9b3c62100b7d",
+   "pools": [
+    {
+     "fee": 10000,
+     "pool": "0x0425c69694c9357b6f2daeb9897795fcd9c6e6cb",
+     "usdg": 1.5e-05
+    },
+    {
+     "fee": 3000,
+     "pool": "0xce036ed958bd5320540894599625add23a7f5606",
+     "usdg": 2e-06
+    }
+   ]
+  },
+  {
+   "symbol": "ELF",
+   "name": "e.l.f. Beauty",
+   "address": "0x39ec44bee4f6a116c6f9b8de566848a985c53c60",
+   "pools": [
+    {
+     "fee": 10000,
+     "pool": "0xc7d6ced1b7746784a20a1201fa9eb4c676f1b0e3",
+     "usdg": 1.4e-05
+    }
+   ]
+  },
+  {
+   "symbol": "WDAY",
+   "name": "Workday",
+   "address": "0x82da4646242e1d962e96e932269dc644c94a9caa",
+   "pools": [
+    {
+     "fee": 10000,
+     "pool": "0xcf64702d2538149a2e84ffa96b00ee745195791d",
+     "usdg": 1e-05
+    },
+    {
+     "fee": 3000,
+     "pool": "0x0958970ccbfb7cb99b007c7f326a9a9e4320d283",
+     "usdg": 2e-06
+    }
+   ]
+  },
+  {
+   "symbol": "JBL",
+   "name": "Jabil Inc.",
+   "address": "0xeaf2512dfc1beac608f8794b3793cd4e02894aa6",
+   "pools": [
+    {
+     "fee": 10000,
+     "pool": "0x17687ef362f5d06376523ca4dfb15444d1dc6e30",
+     "usdg": 1e-05
+    }
+   ]
+  },
+  {
+   "symbol": "FUTU",
+   "name": "Futu Holdings",
+   "address": "0xeb30663bdff0622ef4e4e5cbb4e975f19f33f51d",
+   "pools": [
+    {
+     "fee": 10000,
+     "pool": "0xb3e2fb8e10af6c9fdd7f2d31cea79927a9dbfcf6",
+     "usdg": 9e-06
+    },
+    {
+     "fee": 3000,
+     "pool": "0x7870dbb203eb5ee1c5176ab134664be725f1fb32",
+     "usdg": 2e-06
+    }
+   ]
+  },
+  {
+   "symbol": "CTSH",
+   "name": "Cognizant",
+   "address": "0x63d5a3b6939a33f1e75d8bcd85759858239600db",
+   "pools": [
+    {
+     "fee": 10000,
+     "pool": "0x95a8f85c70805bf74d93caa69c60db4475977c5b",
+     "usdg": 8e-06
+    }
+   ]
+  },
+  {
+   "symbol": "CBRS",
+   "name": "Cerebras Systems",
+   "address": "0x5c90450bbb4273d7b2f17cf6917aeb237a569679",
+   "pools": [
+    {
+     "fee": 10000,
+     "pool": "0xa887c160493c80b8cf2a847a0da103e8aa5fe8f9",
+     "usdg": 7e-06
+    }
+   ]
+  },
+  {
+   "symbol": "SATS",
+   "name": "EchoStar",
+   "address": "0x95052ddcd5dc25641657424a8cf04834997e1730",
+   "pools": [
+    {
+     "fee": 10000,
+     "pool": "0xf9f25cd5b5ab162f7aad3cb2a1843916af49167f",
+     "usdg": 7e-06
+    }
+   ]
+  },
+  {
+   "symbol": "ZM",
+   "name": "Zoom",
+   "address": "0x44c4f142009036cf477ed2d09932051843137cf1",
+   "pools": [
+    {
+     "fee": 10000,
+     "pool": "0x89ef54007b030a07b12f7cda9fe98cb278cd7e6d",
+     "usdg": 7e-06
+    }
+   ]
+  },
+  {
+   "symbol": "HII",
+   "name": "Huntington Ingalls",
+   "address": "0xeb61c0ed490a367d4e3631ccf8a74b3bfc7e775d",
+   "pools": [
+    {
+     "fee": 10000,
+     "pool": "0xe0236f4dae922534ef8a33f15ea037fc31dac9cb",
+     "usdg": 7e-06
+    },
+    {
+     "fee": 3000,
+     "pool": "0x78cce28f3366e72a28bab1befacb9f26528811d1",
+     "usdg": 2e-06
+    }
+   ]
+  },
+  {
+   "symbol": "PR",
+   "name": "Permian Resources",
+   "address": "0x4189f0c66ebbb0bfef1c31f763131361ef32f77c",
+   "pools": [
+    {
+     "fee": 10000,
+     "pool": "0xc2b5a8d6ecbbe9e4590271f7fe0261a3b265c3e7",
+     "usdg": 6e-06
+    }
+   ]
+  },
+  {
+   "symbol": "CRWD",
+   "name": "CrowdStrike Holdings",
+   "address": "0xea72ecca2d0f6bfa1394dbbcff85b52cd4233931",
+   "pools": [
+    {
+     "fee": 10000,
+     "pool": "0xdee31838ed96e8b68d6a16d3db9fdf4fbd672929",
+     "usdg": 1e-06
+    }
+   ]
+  },
+  {
+   "symbol": "ZETA",
+   "name": "Zeta Global",
+   "address": "0xe674c5c071821f48bb2d12cadb83617eff438f9e",
+   "pools": [
+    {
+     "fee": 10000,
+     "pool": "0xa2d2dcdc5ea5dabfed32b4e99c1f0a4d6415d8a3",
+     "usdg": 1e-06
+    }
+   ]
+  },
+  {
+   "symbol": "QNT",
+   "name": "Quantinuum Inc. Class A",
+   "address": "0xb7edfe2f33c1ac06830a971dfb559bde8a2a3d76",
+   "pools": [
+    {
+     "fee": 10000,
+     "pool": "0x01ac0ccaa97f55d45c996d31b8ec1b14c94adbf5",
+     "usdg": 1e-06
+    }
+   ]
+  },
+  {
+   "symbol": "BND",
+   "name": "Vanguard Total Bond Market ETF",
+   "address": "0x2f62fc9fabb470c690f141c28340ed832bb27020",
+   "pools": [
+    {
+     "fee": 10000,
+     "pool": "0x4f7039ae91038a11e76da15f0ccc0ffc90e7c37b",
+     "usdg": 1e-06
+    }
+   ]
+  }
+ ],
+ "lookalikes": [
+  {
+   "symbol": "AAOI",
+   "name": "Applied Optoelectronics • Robinhood Token",
+   "address": "0x5f907800909427b3c7f0e9b8a8f2aa21569308f9"
+  },
+  {
+   "symbol": "ABCL",
+   "name": "Abcellera Biologics • Robinhood Token",
+   "address": "0x5f3ff55c6b212b6f74e88d52d2867419072c641f"
+  },
+  {
+   "symbol": "ADBE",
+   "name": "Adobe • Robinhood Token",
+   "address": "0x5f0c03253a7c00197bd86ffe5dcc697b86b7eb53"
+  },
+  {
+   "symbol": "AEHR",
+   "name": "Aehr • Robinhood Token",
+   "address": "0x5faae5ceca425cc145d5212a82fdbf2efd9d4e61"
+  },
+  {
+   "symbol": "AEIS",
+   "name": "Advanced Energy • Robinhood Token",
+   "address": "0x5f68a0803b2eca4b08d13d0d2bb1698d4762728c"
+  },
+  {
+   "symbol": "AMAT",
+   "name": "Applied Materials • Robinhood Token",
+   "address": "0x5f1b63146f1458e1dc0b0eef4b75762cc22e3189"
+  },
+  {
+   "symbol": "AMBA",
+   "name": "Ambarella • Robinhood Token",
+   "address": "0x5f5cbce41d6d8334c8e04fc30a3672c950ee91f6"
+  },
+  {
+   "symbol": "AMKR",
+   "name": "Amkor Technology • Robinhood Token",
+   "address": "0x5f0bb45d99ddd82097fc08b5d8089f29a994bbde"
+  },
+  {
+   "symbol": "ANET",
+   "name": "Arista • Robinhood Token",
+   "address": "0x5f881715a7e607f42412cffc5ac7bbd50a624cff"
+  },
+  {
+   "symbol": "ARM",
+   "name": "Arm Holdings plc • Robinhood Token",
+   "address": "0x5f0e3d5d2a54a3de59fb5a34fe8d950900ed3099"
+  },
+  {
+   "symbol": "ASTS",
+   "name": "AST SpaceMobile • Robinhood Token",
+   "address": "0x5f0912f722118db67bae9d9d30eab7c2c2b21d91"
+  },
+  {
+   "symbol": "AVGO",
+   "name": "Broadcom • Robinhood Token",
+   "address": "0x5fbf10af7df56063db7b8e7de37ab370aaaffb72"
+  },
+  {
+   "symbol": "AXTI",
+   "name": "AXT • Robinhood Token",
+   "address": "0x5fb53642e4c65ac740f0d3bb4807e6ba01d96fc7"
+  },
+  {
+   "symbol": "BNC",
+   "name": "CEA Industries Inc • Robinhood Token",
+   "address": "0x5fbe4d3f62b61db5b1c00f50fa2589ea1717f1e1"
+  },
+  {
+   "symbol": "BULL",
+   "name": "Webull • Robinhood Token",
+   "address": "0x5fa35021adcf83d56b71452eeab796a5c1fb3cd6"
+  },
+  {
+   "symbol": "CBRS",
+   "name": "Cerebras Systems • Robinhood Token",
+   "address": "0x5f82127a02249e4235a2443d7f6603a98f0eae36"
+  },
+  {
+   "symbol": "CLSK",
+   "name": "CleanSpark • Robinhood Token",
+   "address": "0x5fc3af977dec39df7a0a97fc3d8c50b409c6d6d4"
+  },
+  {
+   "symbol": "COHR",
+   "name": "Coherent • Robinhood Token",
+   "address": "0x5f10e73db5b87d13fc1c209d1cf52a5aa84bddc9"
+  },
+  {
+   "symbol": "CRDO",
+   "name": "Credo Technology Group • Robinhood Token",
+   "address": "0x5f059b5c0231eecf50a11832f836c41e4eea7efa"
+  },
+  {
+   "symbol": "CRWD",
+   "name": "CrowdStrike Holdings • Robinhood Token",
+   "address": "0x5f027c12d8ba6948f26537f2dd5f28554f8ce31d"
+  },
+  {
+   "symbol": "CSCO",
+   "name": "Cisco Systems • Robinhood Token",
+   "address": "0x5fb5a1fe63e2a5691ba1fbb0951076c476c33416"
+  },
+  {
+   "symbol": "CTSH",
+   "name": "Cognizant • Robinhood Token",
+   "address": "0x5f61214ca123088c7eac7a5244325449c4625a2a"
+  },
+  {
+   "symbol": "CVNA",
+   "name": "Carvana • Robinhood Token",
+   "address": "0x5fb603736993fa699052169521519c7de9dffe71"
+  },
+  {
+   "symbol": "DDOG",
+   "name": "Datadog • Robinhood Token",
+   "address": "0x5f952c3413a20eccc4526126410dedd22ba8ca26"
+  },
+  {
+   "symbol": "DOCN",
+   "name": "DigitalOcean • Robinhood Token",
+   "address": "0x5f00fa1ddbcac987fc8c07c3044255261c105ff4"
+  },
+  {
+   "symbol": "DRAM",
+   "name": "Roundhill Memory ETF • Robinhood Token",
+   "address": "0x5f6684491d36edc8114a8f14383f3dcb2480d04f"
+  },
+  {
+   "symbol": "EWT",
+   "name": "iShares MSCI Taiwan Capped ETF • Robinhood Token",
+   "address": "0x5fac05c0c01c9a26f939e9a1a6bcfa03f84cb2cd"
+  },
+  {
+   "symbol": "EWY",
+   "name": "iShares MSCI South Korea fund • Robinhood Token",
+   "address": "0x5f51c967bd2c4cb859d9b323973fa1a59c571854"
+  },
+  {
+   "symbol": "F",
+   "name": "Ford Motor • Robinhood Token",
+   "address": "0x5f23398f46ccf71555db812ff8e3a6beaceead58"
+  },
+  {
+   "symbol": "FICO",
+   "name": "Fair Isaac • Robinhood Token",
+   "address": "0x5f616ef0ea78979187b1df4ed8dfd1b79ba6b748"
+  },
+  {
+   "symbol": "FISV",
+   "name": "Fiserv • Robinhood Token",
+   "address": "0x5f2d764a813d33b717b5a4430d5ef5085cf4c6a0"
+  },
+  {
+   "symbol": "FIX",
+   "name": "Comfort Systems • Robinhood Token",
+   "address": "0x5f0894f71f542223a67fdc25f968f0b3fb87bdb3"
+  },
+  {
+   "symbol": "FLNC",
+   "name": "Fluence Energy • Robinhood Token",
+   "address": "0x5f7133036efb070da12ad29b6da559f11a6d7f4e"
+  },
+  {
+   "symbol": "FLY",
+   "name": "Firefly Aerospace Inc. • Robinhood Token",
+   "address": "0x5f1327a96b8c33e89639312e362f1a486de01c45"
+  },
+  {
+   "symbol": "FTNT",
+   "name": "Fortinet • Robinhood Token",
+   "address": "0x5f76cbff5e8b98c5513998aaff4367adc129ca37"
+  },
+  {
+   "symbol": "FUTU",
+   "name": "Futu Holdings • Robinhood Token",
+   "address": "0x5fb9cfe2db8c4f284b2e7e7bd9a664ec50f90af7"
+  },
+  {
+   "symbol": "GE",
+   "name": "General Electric • Robinhood Token",
+   "address": "0x5f983ca60c6bbf69d128e6a56d4a9f1a647f8046"
+  },
+  {
+   "symbol": "GEV",
+   "name": "GE Vernova • Robinhood Token",
+   "address": "0x5fbf105617f1b1abdb26a308c8150894278827de"
+  },
+  {
+   "symbol": "GLW",
+   "name": "Corning • Robinhood Token",
+   "address": "0x5f0de7670086f3abf69338f1f0c24e39bec55a7b"
+  },
+  {
+   "symbol": "HII",
+   "name": "Huntington Ingalls • Robinhood Token",
+   "address": "0x5fb48aeb274bfec53bfbad44bb6472779fd9dd6b"
+  },
+  {
+   "symbol": "HPE",
+   "name": "HP Enterprise • Robinhood Token",
+   "address": "0x5f8016965142fdd606698b9c479bfc99f7a8bab2"
+  },
+  {
+   "symbol": "HWM",
+   "name": "Howmet Aerospace • Robinhood Token",
+   "address": "0x5f43f3e625c0b623a0242460b9056b25460fe878"
+  },
+  {
+   "symbol": "INFQ",
+   "name": "Infleqtion • Robinhood Token",
+   "address": "0x5f0ecf299bf45d8b728177db40bcb502082d6af0"
+  },
+  {
+   "symbol": "INOD",
+   "name": "Innodata • Robinhood Token",
+   "address": "0x5f2f9a672e995c359542f626351a6de84c1895f6"
+  },
+  {
+   "symbol": "INTU",
+   "name": "Intuit • Robinhood Token",
+   "address": "0x5f1a474fa09f159beed52b9817540fa2dcbf837a"
+  },
+  {
+   "symbol": "IONQ",
+   "name": "IonQ • Robinhood Token",
+   "address": "0x5f8a7ed820573d6bba134e6b2446a56ff5d98ab6"
+  },
+  {
+   "symbol": "IREN",
+   "name": "IREN Limited • Robinhood Token",
+   "address": "0x5f3249e41dfba12318c853d907198eb3ad086ef5"
+  },
+  {
+   "symbol": "JBL",
+   "name": "Jabil Inc. • Robinhood Token",
+   "address": "0x5f0041ca89a97bdf711a4aba144be12814d9736b"
+  },
+  {
+   "symbol": "JNJ",
+   "name": "Johnson & Johnson • Robinhood Token",
+   "address": "0x5f6800056c3a7e9330c72c1cea38ed49cd1e74dd"
+  },
+  {
+   "symbol": "JOBY",
+   "name": "Joby Aviation • Robinhood Token",
+   "address": "0x5f1393013000e8ce4f6db44dd9a5dfe05071978d"
+  },
+  {
+   "symbol": "KLAC",
+   "name": "KLA • Robinhood Token",
+   "address": "0x5f0dd49e1e41fb01c63e73e9ef6dc0756d65f3d5"
+  },
+  {
+   "symbol": "KSS",
+   "name": "Kohls Corporation • Robinhood Token",
+   "address": "0x5f5f2db69bd7bb75d821373f526ac020130e52f0"
+  },
+  {
+   "symbol": "KTOS",
+   "name": "Kratos Defense & Security Solutions • Robinhood Token",
+   "address": "0x5f5f1ac145cb1462bdf6cb332a194382f09063b8"
+  },
+  {
+   "symbol": "LHX",
+   "name": "L3Harris • Robinhood Token",
+   "address": "0x5f17f7cc0c2f5a9fba4c31b5640619dad0a38393"
+  },
+  {
+   "symbol": "LITE",
+   "name": "Lumentum • Robinhood Token",
+   "address": "0x5f5bfaa65387fc3232d3b23ce04b4478e1adcd78"
+  },
+  {
+   "symbol": "LLY",
+   "name": "Eli Lilly • Robinhood Token",
+   "address": "0x5fbb4f401bcefb2540f7c357216967db875268b5"
+  },
+  {
+   "symbol": "LMT",
+   "name": "Lockheed • Robinhood Token",
+   "address": "0x5f64bd6fa2a5fea750e838f4776d0d91450dd3f4"
+  },
+  {
+   "symbol": "LRCX",
+   "name": "Lam Research Corp • Robinhood Token",
+   "address": "0x5f5620fcef8b72ab9f9f010edc9d10b8120c435e"
+  },
+  {
+   "symbol": "LULU",
+   "name": "Lululemon • Robinhood Token",
+   "address": "0x5fbf1505ab9e78321ad2389071b1eed84e89964b"
+  },
+  {
+   "symbol": "LUNR",
+   "name": "Intuitive Machines • Robinhood Token",
+   "address": "0x5fc30a5cfe22d8dc14787831bc5569f610e3d78e"
+  },
+  {
+   "symbol": "MCD",
+   "name": "McDonald's • Robinhood Token",
+   "address": "0xadd29b204b6dc756d934e4934586028a34cbed38"
+  },
+  {
+   "symbol": "MDB",
+   "name": "MongoDB • Robinhood Token",
+   "address": "0x5f03212129bf5c82804a380212dceda030b8048e"
+  },
+  {
+   "symbol": "META",
+   "name": "Meta Platforms • Robinhood Token",
+   "address": "0x5f2f4ab350c819f30d1ff0b5dcb8513951fd4149"
+  },
+  {
+   "symbol": "MOD",
+   "name": "Modine • Robinhood Token",
+   "address": "0x5fa5167238f1f848c1310457aa8099eea0b7f173"
+  },
+  {
+   "symbol": "MPWR",
+   "name": "Monolithic Power Systems • Robinhood Token",
+   "address": "0x5f928112428374c817b29dab031ddb18d6e0f529"
+  },
+  {
+   "symbol": "MRVL",
+   "name": "Marvell Technology • Robinhood Token",
+   "address": "0x5fb22abe64f3e62b475eff6d49ef9935a25098b6"
+  },
+  {
+   "symbol": "MRVL",
+   "name": "Marvell Technology • Robinhood Token",
+   "address": "0x5f17e076b3989b7f3382f31eab98a2378c7d55df"
+  },
+  {
+   "symbol": "MRVL",
+   "name": "Marvell Technology • Robinhood Token",
+   "address": "0x5fb0eb0d5b95c88b193d7a15e2a85a3c2acd0fe1"
+  },
+  {
+   "symbol": "MRVL",
+   "name": "Marvell Technology • Robinhood Token",
+   "address": "0x5f3dd3470c0c59c6513df685902c56660916a545"
+  },
+  {
+   "symbol": "MSTR",
+   "name": "Strategy Inc. • Robinhood Token",
+   "address": "0x5f1de3e449de0d3fb1d3bd935add5526a6ee40c8"
+  },
+  {
+   "symbol": "MTSI",
+   "name": "MACOM • Robinhood Token",
+   "address": "0x5f93914f55225f435ff4016517f53d24c0597b3e"
+  },
+  {
+   "symbol": "MTSI",
+   "name": "MACOM • Robinhood Token",
+   "address": "0x5f5b955e7f95fe1e57cfab793ec975f688d61d5a"
+  },
+  {
+   "symbol": "MXL",
+   "name": "MaxLinear • Robinhood Token",
+   "address": "0x5f2a34a89945122204d31bc0f6403b86645efe7f"
+  },
+  {
+   "symbol": "NASA",
+   "name": "Tema Space Innovators ETF • Robinhood Token",
+   "address": "0x5f87db4f2cd06c89c151b7ecbfeb17f1a52885f9"
+  },
+  {
+   "symbol": "NAVN",
+   "name": "Navan • Robinhood Token",
+   "address": "0x5f1ac61678c612546cb4ffecad3fcc0926fc2279"
+  },
+  {
+   "symbol": "NBIS",
+   "name": "Nebius Group • Robinhood Token",
+   "address": "0x5f852a8afe69a20666ad121a1135aacaefbc4bdf"
+  },
+  {
+   "symbol": "NNE",
+   "name": "Nano Nuclear Energy • Robinhood Token",
+   "address": "0x5f4db7771e959df1751e54a602b68e17a106366c"
+  },
+  {
+   "symbol": "NNE",
+   "name": "Nano Nuclear Energy • Robinhood Token",
+   "address": "0x5f92fd843b50f1da1af77ca62c78f2d38d8f0a29"
+  },
+  {
+   "symbol": "NU",
+   "name": "Nu • Robinhood Token",
+   "address": "0x5f85b67db5601125aa611f3578c2ee865d9bf83d"
+  },
+  {
+   "symbol": "ON",
+   "name": "ON Semiconductor • Robinhood Token",
+   "address": "0x5f7d483a37a6d2ebb2919519db6bdad67e0bfeb5"
+  },
+  {
+   "symbol": "ON",
+   "name": "ON Semiconductor • Robinhood Token",
+   "address": "0x5faffca9468a9ff0b65f68aa80f7c042f896eae9"
+  },
+  {
+   "symbol": "ON",
+   "name": "ON Semiconductor • Robinhood Token",
+   "address": "0x5f0f9bc1c76b0f628bac4782942d74026cab43a0"
+  },
+  {
+   "symbol": "RCAT",
+   "name": "Red Cat • Robinhood Token",
+   "address": "0x5f5db2d62b489c7e5543cb71078e38a62c1020f3"
+  },
+  {
+   "symbol": "TSLA",
+   "name": "Tesla • Robinhood Token",
+   "address": "0x5f3b9de235782382697019458dc63f24c5bb7247"
+  }
+ ]
+}

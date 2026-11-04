@@ -1,0 +1,15 @@
+{
+  "_note": "Contracts on Robinhood Chain (4663), code verified present via eth_getCode on 4 Nov 2026. Edges into these are kind 'swap'/'router', not followed.",
+  "uniswapV3Factory": "0x1f7d7550B1b028f7571E69A784071F0205FD2EfA",
+  "uniswapSwapRouter02": "0xCaf681a66D020601342297493863E78C959E5cb2",
+  "uniswapQuoterV2": "0x33e885eD0Ec9bF04EcfB19341582aADCb4c8A9E7",
+  "uniswapV4PoolManager": "0x8366a39CC670B4001A1121B8F6A443A643e40951",
+  "uniswapV4PositionManager": "0x58daec3116aae6D93017bAAea7749052E8a04fA7",
+  "permit2": "0x000000000022D473030F116dDEE9F6B43aC78BA3",
+  "ponsV2Factory": "0x7ed598bcef8bd9edd8c97a195c6d13f40801ec7e",
+  "ponsRouter": "0xe33E9E479dF8802cb0866d5d05258bEc4cF62948",
+  "multicall3": "0xcA11bde05977b3631167028862bE2a173976CA11",
+  "stockRegistry": "0xe10b6f6B275de231345c20D14Ab812db62151b00",
+  "registryOperator": "0x913ca87347391218e5de2c17c5a0aeba8b0b28fd",
+  "usdg": "0x5fc5360D0400a0Fd4f2af552ADD042D716F1d168"
+}

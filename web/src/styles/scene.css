@@ -1,0 +1,86 @@
+/* Scene chrome (LANDING): poster, canvas, pins + leader lines, freeze lens, callout, time rail. Used on / and /case. */
+.fw-scene { position: relative; overflow: hidden; isolation: isolate;
+  background: radial-gradient(120% 90% at 70% 40%, var(--fog-hi) 0%, #EEF4F8 38%, var(--ice) 100%); }
+.fw-scene__poster { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; object-position: 50% 50%; transition: opacity var(--t-fade) linear; z-index: 0; user-select: none; -webkit-user-drag: none; }
+.fw-scene__gl { position: absolute; inset: 0; z-index: 1; }
+.fw-scene__canvas { width: 100% !important; height: 100% !important; display: block; opacity: 0; transition: opacity var(--t-fade) linear; touch-action: pan-y; }
+.fw-scene[data-mode="gl"] .fw-scene__canvas { opacity: 1; }
+.fw-scene[data-mode="gl"] .fw-scene__poster { opacity: 0; }
+.fw-scene__veil { position: absolute; inset: 0; z-index: 2; pointer-events: none; background: rgba(220, 232, 241, .55); opacity: 0; transition: opacity var(--t-lens) var(--ease); }
+.fw-scene.has-lens .fw-scene__veil { opacity: 1; }
+.fw-scene__leaders { position: absolute; inset: 0; width: 100%; height: 100%; z-index: 3; pointer-events: none; overflow: visible; }
+.fw-leader { fill: none; stroke: var(--ink-2); stroke-width: 1; opacity: .7; }
+.fw-leader-dot { fill: var(--ink); stroke: none; }
+.fw-leader--cobalt { stroke: var(--cobalt); } circle.fw-leader--cobalt { fill: var(--cobalt); }
+.fw-leader--amber { stroke: var(--amber); } circle.fw-leader--amber { fill: var(--amber); }
+.fw-leader--cold { stroke: #3F7FE0; } circle.fw-leader--cold { fill: #3F7FE0; }
+.fw-scene__pins { position: absolute; inset: 0; z-index: 4; pointer-events: none; }
+
+/* pin: a small typed tag pinned to its crystal */
+.fw-pin { position: absolute; left: 0; top: 0; pointer-events: auto; display: flex; flex-direction: column; align-items: flex-start; gap: 3px; padding: 7px 10px 6px; background: var(--paper); border: 1px solid var(--rime); border-left: 3px solid var(--ink-2); border-radius: 4px 8px 8px 4px; cursor: pointer; text-align: left; opacity: 0; transition: opacity .2s linear, border-color .15s, box-shadow .15s; will-change: transform; box-shadow: 0 6px 16px -10px rgba(15,28,39,.35); color: var(--ink); }
+.fw-pin:hover { box-shadow: 0 0 0 3px rgba(30,69,201,.14), 0 6px 16px -10px rgba(15,28,39,.35); }
+.fw-scene .fw-pin.is-lens { opacity: 0 !important; pointer-events: none !important; }
+.fw-pin__a { font: 700 12px/1 var(--f-mono); letter-spacing: .1em; text-transform: uppercase; white-space: nowrap; }
+.fw-pin__b { font: 400 12px/1.1 var(--f-mono); color: var(--ink-2); white-space: nowrap; }
+.fw-pin--cobalt { border-left-color: var(--cobalt); } .fw-pin--cobalt .fw-pin__a { color: var(--cobalt); }
+.fw-pin--amber { border-left-color: var(--amber); } .fw-pin--amber .fw-pin__a { color: var(--amber-ink); }
+.fw-pin--cold { border-left-color: var(--cold); } .fw-pin--cold .fw-pin__a { color: #245FC4; }
+.fw-pin--muted { border-left-color: var(--graphite); } .fw-pin--muted .fw-pin__a { color: #5B6975; }
+
+/* freeze lens: 220 px ring; the veil's radial mask leaves the crystal clear and frosts the rest */
+.fw-lens { position: absolute; left: 0; top: 0; width: 220px; height: 220px; z-index: 3; pointer-events: none; border-radius: 50%; opacity: 0; transform-origin: center;
+  border: 1px solid rgba(30, 69, 201, .5); box-shadow: 0 0 0 6px rgba(255,255,255,.55), 0 0 0 7px rgba(30,69,201,.18), inset 0 0 40px rgba(127,179,255,.25);
+  transition: opacity var(--t-lens) var(--ease); will-change: transform; }
+.fw-lens::before, .fw-lens::after { content: ''; position: absolute; background: rgba(30,69,201,.55); }
+.fw-lens::before { left: 50%; top: -9px; width: 1px; height: 14px; box-shadow: 0 calc(100% + 222px) 0 rgba(30,69,201,.55); }
+.fw-lens::after { top: 50%; left: -9px; height: 1px; width: 14px; }
+.fw-scene.has-lens .fw-lens { opacity: 1; }
+
+/* callout */
+.fw-callout { position: absolute; left: 0; top: 0; z-index: 6; width: 312px; padding: 14px 16px 14px; will-change: transform; animation: fw-pop var(--t-lens) var(--ease) both; }
+.fw-callout[hidden] { display: none; }
+@keyframes fw-pop { from { opacity: 0; } to { opacity: 1; } }
+.fw-callout__head { display: flex; align-items: center; justify-content: space-between; margin-bottom: 10px; }
+.fw-callout__x { width: 30px; height: 30px; border: 1px solid var(--rime); background: var(--fog-hi); border-radius: 8px; font: 400 18px/1 var(--f-body); color: var(--ink-2); cursor: pointer; }
+.fw-callout__title { font: 700 19px/1.2 var(--f-display); letter-spacing: -0.01em; margin-bottom: 4px; }
+.fw-callout__rows { display: grid; grid-template-columns: auto 1fr; gap: 5px 14px; margin: 10px 0 8px; font: 400 13px/1.35 var(--f-mono); }
+.fw-callout__rows dt { color: var(--ink-2); text-transform: uppercase; letter-spacing: .06em; font-size: 11px; padding-top: 2px; }
+.fw-callout__rows dd { margin: 0; text-align: right; font-variant-numeric: tabular-nums; }
+.fw-callout__chips { display: flex; flex-wrap: wrap; gap: 6px; margin: 4px 0 8px; }
+.fw-callout__note { font: 400 13px/1.4 var(--f-body); color: var(--ink-2); margin: 6px 0 10px; }
+.fw-callout__links { display: flex; flex-wrap: wrap; gap: 6px 14px; padding-top: 10px; border-top: 1px dashed var(--rime); font: 500 14px/1.3 var(--f-body); }
+.fw-linkbtn { font: inherit; color: var(--cobalt); background: none; border: 0; padding: 0; cursor: pointer; text-decoration: underline; text-underline-offset: 3px; }
+
+/* time rail */
+.fw-rail { position: absolute; z-index: 7; left: 24px; right: 24px; bottom: 24px; height: var(--rail); display: flex; align-items: center; gap: 18px; padding: 0 20px 0 10px; }
+.fw-rail__play { flex: none; width: 44px; height: 44px; border-radius: 50%; border: 1px solid var(--rime); background: var(--fog-hi); color: var(--cobalt); cursor: pointer; display: grid; place-items: center; }
+.fw-rail__play:hover { border-color: var(--cobalt); }
+.fw-rail__play svg { width: 16px; height: 16px; fill: currentColor; }
+.fw-rail__play .i-pause, .fw-rail.is-playing .fw-rail__play .i-play { display: none; }
+.fw-rail.is-playing .fw-rail__play .i-pause { display: inline; }
+.fw-rail__track { position: relative; flex: 1; height: 40px; cursor: grab; touch-action: none; border-radius: 6px; }
+.fw-rail__track:active { cursor: grabbing; }
+.fw-rail__line, .fw-rail__fill { position: absolute; left: 0; top: 50%; height: 2px; margin-top: -1px; border-radius: 2px; }
+.fw-rail__line { right: 0; background: repeating-linear-gradient(90deg, var(--rime) 0 6px, transparent 6px 10px); }
+.fw-rail__fill { background: linear-gradient(90deg, var(--cold), var(--cobalt)); }
+.fw-rail__ticks { position: absolute; inset: 0; pointer-events: none; }
+.fw-rail__tick { position: absolute; top: 50%; width: 9px; height: 9px; margin: -4.5px 0 0 -4.5px; background: var(--paper); border: 1.5px solid var(--ink-2); transform: rotate(45deg); }
+.fw-rail__tick[data-k="blocked"], .fw-rail__tick[data-k="cluster"], .fw-rail__tick[data-k="live"] { border-color: var(--cobalt); }
+.fw-rail__tick[data-k="unblocked"] { border-color: var(--amber); }
+.fw-rail__handle { position: absolute; top: 50%; width: 4px; height: 30px; margin: -15px 0 0 -2px; background: var(--ink); border-radius: 2px; box-shadow: 0 0 0 3px var(--paper), 0 0 0 4px var(--rime); pointer-events: none; }
+.fw-rail__asof { flex: none; display: flex; flex-direction: column; gap: 3px; min-width: 230px; text-align: right; }
+.fw-rail__asof .fw-label { font-size: 11px; }
+.fw-rail__val { font-size: 14px; white-space: nowrap; }
+
+@media (max-width: 720px) {
+  .fw-rail { left: 12px; right: 12px; bottom: 12px; gap: 10px; padding: 0 12px 0 4px; }
+  .fw-rail__play { width: 38px; height: 38px; }
+  .fw-rail__asof { min-width: 0; }
+  .fw-rail__asof .fw-label { display: none; }
+  .fw-rail__val { font-size: 12px; }
+  .fw-rail__tick { width: 7px; height: 7px; margin: -3.5px 0 0 -3.5px; }
+  .fw-callout { position: fixed; left: 8px; right: 8px; top: auto; bottom: 8px; width: auto; max-height: 70svh; overflow: auto; transform: none !important; z-index: 80; border-radius: 16px; box-shadow: 0 -12px 40px -16px rgba(15,28,39,.4); }
+  .fw-pin { padding: 5px 8px 4px; }
+  .fw-pin__a, .fw-pin__b { font-size: 11px; }
+}
+@media (prefers-reduced-motion: reduce) { .fw-scene__poster, .fw-scene__canvas { transition: none; } }

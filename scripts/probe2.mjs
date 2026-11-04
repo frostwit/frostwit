@@ -1,0 +1,15 @@
+import fs from 'node:fs';
+import { Lane } from '../shared/rpc/lane.mjs';
+import { Chain } from '../shared/rpc/chain.mjs';
+import { scanRegistry, enrichEvents, summarizeEvents } from '../shared/issuer/tail.mjs';
+const lane = new Lane({ url: 'https://rpc.mainnet.chain.robinhood.com', log: console.log });
+const ch = new Chain(lane); const known = JSON.parse(fs.readFileSync(new URL('../data/known.json', import.meta.url)));
+const head = await ch.head(); const t0 = Date.now();
+const ev = await scanRegistry(ch, known.stockRegistry, 0, head, { onWindow: (b, n) => console.log('window to', b, 'events', n) });
+console.log('raw', ev.length, 'blocks', [...new Set(ev.map(e => e.block))].length, 'txs', [...new Set(ev.map(e => e.tx))].length, Date.now() - t0, 'ms');
+const en = await enrichEvents(ch, ev);
+console.log(JSON.stringify(summarizeEvents(en)));
+console.log(JSON.stringify(en.filter(e => e.block > 1e6)));
+console.log(JSON.stringify(en.slice(0,2)));
+fs.writeFileSync('/tmp/issuer-events.json', JSON.stringify({ head, events: en }));
+console.log('calls', lane.totalCalls);

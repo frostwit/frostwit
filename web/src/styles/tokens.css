@@ -1,0 +1,48 @@
+/* Frostwit tokens (BRIEF §4.0.4). Owner: LANDING. Shared by every page. */
+@font-face { font-family: 'Familjen Grotesk'; font-weight: 600; font-style: normal; font-display: swap; src: url(/dist/fonts/familjen-grotesk-latin-600-normal.woff2) format('woff2'); }
+@font-face { font-family: 'Familjen Grotesk'; font-weight: 700; font-style: normal; font-display: swap; src: url(/dist/fonts/familjen-grotesk-latin-700-normal.woff2) format('woff2'); }
+@font-face { font-family: 'Archivo'; font-weight: 400; font-style: normal; font-display: swap; src: url(/dist/fonts/archivo-latin-400-normal.woff2) format('woff2'); }
+@font-face { font-family: 'Archivo'; font-weight: 500; font-style: normal; font-display: swap; src: url(/dist/fonts/archivo-latin-500-normal.woff2) format('woff2'); }
+@font-face { font-family: 'Courier Prime'; font-weight: 400; font-style: normal; font-display: swap; src: url(/dist/fonts/courier-prime-latin-400-normal.woff2) format('woff2'); }
+@font-face { font-family: 'Courier Prime'; font-weight: 700; font-style: normal; font-display: swap; src: url(/dist/fonts/courier-prime-latin-700-normal.woff2) format('woff2'); }
+
+:root {
+  --frost: #EAF1F7;
+  --ice: #DCE8F1;
+  --fog-hi: #F6F9FB;
+  --rime: #B4C7D5;
+  --ink: #0F1C27;
+  --ink-2: #4A5A68;
+  --cobalt: #1E45C9;
+  --cold: #7FB3FF;
+  --amber: #B8731A;
+  --graphite: #6B7A86;
+  --radius: 12px;
+  --rail: 64px;
+
+  /* derived */
+  --paper: #FBFDFE;            /* opaque HUD / sheet surface */
+  --rime-soft: #CFDCE6;
+  --cobalt-ink: #16349C;       /* hover / pressed */
+  --cold-wash: #E3EEFF;        /* freezable row tint */
+  --amber-wash: #F6EBDC;
+  --amber-ink: #8A5512;        /* amber text on paper, AA */
+  --ok-ink: #1E6B4A;
+  --shadow-hud: 0 1px 0 rgba(255,255,255,.9) inset, 0 18px 40px -24px rgba(15,28,39,.28), 0 2px 6px -3px rgba(15,28,39,.12);
+
+  --f-display: 'Familjen Grotesk', 'Arial Narrow', Arial, sans-serif;
+  --f-body: 'Archivo', 'Helvetica Neue', Arial, sans-serif;
+  --f-mono: 'Courier Prime', 'Courier New', Courier, monospace;
+
+  --fs-display: 56px; --lh-display: 1.05;
+  --fs-h2: 32px; --fs-h3: 22px;
+  --fs-body: 17px; --lh-body: 1.55;
+  --fs-label: 13px; --fs-data: 15px; --fs-stamp: 14px;
+
+  --container: 1280px; --margin: 80px; --gutter: 24px;
+  --ease: cubic-bezier(.2,.8,.2,1);
+  --t-lens: 180ms; --t-grow: 420ms; --t-stamp: 120ms; --t-fade: 300ms;
+}
+@media (max-width: 720px) {
+  :root { --fs-display: 36px; --lh-display: 1.1; --fs-h2: 24px; --fs-h3: 20px; --margin: 16px; --gutter: 16px; --rail: 48px; }
+}

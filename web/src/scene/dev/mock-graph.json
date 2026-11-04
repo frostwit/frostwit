@@ -1,0 +1,210 @@
+{
+ "_mock": "LANDING dev mock — synthetic addresses, not real data; replaced by fixtures/case-example.json",
+ "seed": {
+  "kind": "tx",
+  "value": "0x0000000000000000000000000000000000000000000000000000000000000001",
+  "block": 105000000,
+  "victim": "0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee",
+  "thieves": [
+   "0x1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a"
+  ]
+ },
+ "nodes": [
+  {
+   "address": "0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee",
+   "label": "victim",
+   "code": false,
+   "blocked": false,
+   "frozen": false
+  },
+  {
+   "address": "0x1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a",
+   "label": "thief",
+   "code": false,
+   "blocked": false,
+   "frozen": false
+  },
+  {
+   "address": "0xp0p0p0p0p0p0p0p0p0p0p0p0p0p0p0p0p0p0p0p0",
+   "label": "pool",
+   "code": true,
+   "blocked": false,
+   "frozen": false
+  },
+  {
+   "address": "0x2b2b2b2b2b2b2b2b2b2b2b2b2b2b2b2b2b2b2b2b",
+   "label": "receiver",
+   "code": false,
+   "blocked": true,
+   "frozen": false
+  },
+  {
+   "address": "0x3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c",
+   "label": "contract",
+   "code": true,
+   "blocked": false,
+   "frozen": false
+  },
+  {
+   "address": "0x4d4d4d4d4d4d4d4d4d4d4d4d4d4d4d4d4d4d4d4d",
+   "label": "receiver",
+   "code": false,
+   "blocked": false,
+   "frozen": false
+  }
+ ],
+ "edges": [
+  {
+   "from": "0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee",
+   "to": "0x1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a",
+   "token": "0xa1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1",
+   "symbol": "NVDA",
+   "amount": 100,
+   "amountRaw": "100000000000000000000",
+   "usd": 18000,
+   "tx": "0x0000000000000000000000000000000000000000000000000000000000000001",
+   "block": 105000000,
+   "time": 1793700000,
+   "kind": "transfer"
+  },
+  {
+   "from": "0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee",
+   "to": "0x1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a",
+   "token": "0x5fc5360D0400a0Fd4f2af552ADD042D716F1d168",
+   "symbol": "USDG",
+   "amount": 5000,
+   "amountRaw": "5000000000",
+   "usd": 5000,
+   "tx": "0x0000000000000000000000000000000000000000000000000000000000000001",
+   "block": 105000000,
+   "time": 1793700000,
+   "kind": "transfer"
+  },
+  {
+   "from": "0x1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a",
+   "to": "0xp0p0p0p0p0p0p0p0p0p0p0p0p0p0p0p0p0p0p0p0",
+   "token": "0xa1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1",
+   "symbol": "NVDA",
+   "amount": 100,
+   "amountRaw": "100000000000000000000",
+   "usd": 18000,
+   "tx": "0x0000000000000000000000000000000000000000000000000000000000000002",
+   "block": 105004000,
+   "time": 1793700412,
+   "kind": "swap"
+  },
+  {
+   "from": "0xp0p0p0p0p0p0p0p0p0p0p0p0p0p0p0p0p0p0p0p0",
+   "to": "0x1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a",
+   "token": "0x5fc5360D0400a0Fd4f2af552ADD042D716F1d168",
+   "symbol": "USDG",
+   "amount": 17950,
+   "amountRaw": "17950000000",
+   "usd": 17950,
+   "tx": "0x0000000000000000000000000000000000000000000000000000000000000002",
+   "block": 105004000,
+   "time": 1793700412,
+   "kind": "swap"
+  },
+  {
+   "from": "0x1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a",
+   "to": "0x2b2b2b2b2b2b2b2b2b2b2b2b2b2b2b2b2b2b2b2b",
+   "token": "0x5fc5360D0400a0Fd4f2af552ADD042D716F1d168",
+   "symbol": "USDG",
+   "amount": 12000,
+   "amountRaw": "12000000000",
+   "usd": 12000,
+   "tx": "0x0000000000000000000000000000000000000000000000000000000000000003",
+   "block": 105012000,
+   "time": 1793701237,
+   "kind": "transfer"
+  },
+  {
+   "from": "0x1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a",
+   "to": "0x4d4d4d4d4d4d4d4d4d4d4d4d4d4d4d4d4d4d4d4d",
+   "token": "0x5fc5360D0400a0Fd4f2af552ADD042D716F1d168",
+   "symbol": "USDG",
+   "amount": 4000,
+   "amountRaw": "4000000000",
+   "usd": 4000,
+   "tx": "0x0000000000000000000000000000000000000000000000000000000000000004",
+   "block": 105030000,
+   "time": 1793703092,
+   "kind": "transfer"
+  },
+  {
+   "from": "0x2b2b2b2b2b2b2b2b2b2b2b2b2b2b2b2b2b2b2b2b",
+   "to": "0x3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c",
+   "token": "0x5fc5360D0400a0Fd4f2af552ADD042D716F1d168",
+   "symbol": "USDG",
+   "amount": 2000,
+   "amountRaw": "2000000000",
+   "usd": 2000,
+   "tx": "0x0000000000000000000000000000000000000000000000000000000000000005",
+   "block": 105060000,
+   "time": 1793706185,
+   "kind": "transfer"
+  }
+ ],
+ "freezable": [
+  {
+   "holder": "0x1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a",
+   "token": "0x5fc5360D0400a0Fd4f2af552ADD042D716F1d168",
+   "symbol": "USDG",
+   "issuer": "paxos",
+   "amount": 6950,
+   "usd": 6950,
+   "blocked": false,
+   "frozen": false,
+   "checkedAt": 1793790000,
+   "checkedBlock": 105700000
+  },
+  {
+   "holder": "0x2b2b2b2b2b2b2b2b2b2b2b2b2b2b2b2b2b2b2b2b",
+   "token": "0x5fc5360D0400a0Fd4f2af552ADD042D716F1d168",
+   "symbol": "USDG",
+   "issuer": "paxos",
+   "amount": 10000,
+   "usd": 10000,
+   "blocked": true,
+   "frozen": false,
+   "checkedAt": 1793790000,
+   "checkedBlock": 105700000
+  },
+  {
+   "holder": "0x4d4d4d4d4d4d4d4d4d4d4d4d4d4d4d4d4d4d4d4d",
+   "token": "0x5fc5360D0400a0Fd4f2af552ADD042D716F1d168",
+   "symbol": "USDG",
+   "issuer": "paxos",
+   "amount": 4000,
+   "usd": 4000,
+   "blocked": false,
+   "frozen": false,
+   "checkedAt": 1793790000,
+   "checkedBlock": 105700000
+  }
+ ],
+ "exits": [
+  {
+   "from": "0x1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a",
+   "kind": "eth",
+   "tx": "0x0000000000000000000000000000000000000000000000000000000000000006",
+   "block": 105090000,
+   "note": "left as ETH"
+  },
+  {
+   "from": "0x3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c3c",
+   "kind": "contract",
+   "tx": "0x0000000000000000000000000000000000000000000000000000000000000005",
+   "block": 105060000,
+   "note": "contract, not followed"
+  }
+ ],
+ "budget": {
+  "rpcCalls": 40,
+  "windows": 9,
+  "receipts": 6,
+  "truncated": false
+ },
+ "status": "done"
+}

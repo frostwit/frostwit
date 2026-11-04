@@ -1,0 +1,21 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Frostwit issuer actions (GET /api/issuer-actions), frozen 4 Nov 2026",
+  "type": "object",
+  "required": ["events", "blockedNow", "lastAction", "backfillDone"],
+  "properties": {
+    "events": {
+      "type": "array", "description": "newest first; each event is one Blocked / Unblocked log of the Robinhood access registry",
+      "items": {
+        "type": "object", "required": ["block", "tx", "log_index", "kind", "address", "operator", "time"],
+        "properties": { "block": { "type": "integer" }, "tx": { "type": "string" }, "log_index": { "type": "integer" }, "kind": { "enum": ["blocked", "unblocked"] }, "address": { "type": "string" }, "operator": { "type": ["string", "null"] }, "time": { "type": ["integer", "null"] } }
+      }
+    },
+    "blockedNow": { "type": "integer", "description": "distinct addresses whose latest registry event is Blocked" },
+    "eventsTotal": { "type": "integer", "description": "all Blocked + Unblocked events (a Blocked event is not an address: 247 Blocked events cover 178 distinct addresses)" },
+    "head": { "type": "integer" },
+    "lastAction": { "type": ["object", "null"], "properties": { "block": {}, "time": {}, "tx": {}, "kind": {} } },
+    "nextCursor": { "type": ["string", "null"] },
+    "backfillDone": { "type": "boolean" }
+  }
+}

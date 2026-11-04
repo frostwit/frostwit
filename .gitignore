@@ -1,0 +1,17 @@
+node_modules/
+state/
+*.db
+*.db-*
+*.sqlite*
+.env
+.env.*
+*.key
+*.pem
+.DS_Store
+web/dist/
+# internal build logs (team notes, not product docs)
+BUILD-LOG.md
+LANDING-LOG.md
+LANDING-NEEDS.md
+CONTRACT-READY.md
+MEDIA-STATUS.md

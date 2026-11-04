@@ -1,0 +1,81 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Frostwit trace graph (frozen 4 Nov 2026)",
+  "description": "Returned by GET /api/case/:id as the top-level fields (plus checks, watch, queue, links). Addresses are lowercase 0x+40. amountRaw is a decimal string (BigInt). amount is a JS number in UI units. time is unix seconds (UTC), exact unless timeApprox:true. usd is null when the pool spot is unavailable.",
+  "type": "object",
+  "required": ["seed", "nodes", "edges", "freezable", "exits", "budget", "status"],
+  "properties": {
+    "seed": {
+      "type": "object",
+      "required": ["kind", "value", "block"],
+      "properties": {
+        "kind": { "enum": ["tx", "address", "victim"] },
+        "value": { "type": "string", "description": "tx hash or address" },
+        "block": { "type": "integer", "description": "tx mode: the theft block. address/victim mode: first block of the scanned window" },
+        "time": { "type": ["integer", "null"] }, "timeApprox": { "type": "boolean" },
+        "victim": { "type": ["string", "null"] },
+        "thieves": { "type": "array", "items": { "type": "string" }, "description": "ONLY in thief-address mode (the opener named the address as the thief)" },
+        "firstReceivers": { "type": "array", "items": { "type": "string" }, "description": "pasted-tx and victim modes: addresses that first received value from the reported transaction; not an accusation" },
+        "from": { "type": "string" }, "to": { "type": ["string", "null"] }
+      }
+    },
+    "nodes": {
+      "type": "array",
+      "items": {
+        "type": "object", "required": ["address", "label", "code", "blocked", "frozen"],
+        "properties": {
+          "address": { "type": "string" },
+          "label": { "enum": ["thief", "receiver", "pool", "router", "contract", "victim"] },
+          "role": { "enum": ["thief", "first_receiver"], "description": "DISPLAY word for label=thief nodes, added by the API (not stored): thief only when the user chose address mode as thief; first_receiver for a pasted tx or victim mode" },
+          "code": { "type": "boolean" }, "blocked": { "type": "boolean", "description": "Robinhood access registry isBlocked(address), live at the last check" },
+          "frozen": { "type": "boolean", "description": "USDG isFrozen(address) at the last check" },
+          "depth": { "type": "integer", "description": "hops from the first thief (thief = 0)" },
+          "unfinished": { "type": "boolean", "description": "not followed (depth, budget, fan-out). UI offers 'Continue from this address'" }
+        }
+      }
+    },
+    "edges": {
+      "type": "array",
+      "items": {
+        "type": "object", "required": ["from", "to", "token", "symbol", "amountRaw", "amount", "usd", "tx", "block", "time", "kind"],
+        "properties": {
+          "from": { "type": "string" }, "to": { "type": "string" }, "token": { "type": "string" }, "symbol": { "type": ["string", "null"] },
+          "amountRaw": { "type": "string" }, "amount": { "type": ["number", "null"] }, "usd": { "type": ["number", "null"] },
+          "tx": { "type": "string" }, "block": { "type": "integer" }, "time": { "type": ["integer", "null"] }, "timeApprox": { "type": "boolean" }, "logIndex": { "type": "integer" },
+          "kind": { "enum": ["transfer", "swap", "contract", "exit"] },
+          "via": { "type": "string", "description": "swap edges: 'Uniswap V3 pool NVDA/USDG' or router name" },
+          "swapTo": { "type": "array", "description": "swap edges: what came out in the same tx", "items": { "type": "object", "properties": { "token": {}, "symbol": {}, "amountRaw": {}, "amount": {}, "to": {} } } }
+        }
+      }
+    },
+    "freezable": {
+      "type": "array",
+      "items": {
+        "type": "object", "required": ["holder", "token", "symbol", "issuer", "amount", "amountRaw", "usd", "blocked", "frozen", "checkedAt", "checkedBlock"],
+        "properties": {
+          "holder": { "type": "string" }, "token": { "type": "string" }, "symbol": { "type": "string" }, "issuer": { "enum": ["robinhood", "paxos"] },
+          "amount": { "type": "number", "description": "user-facing figure (balanceOfUI for stock tokens)" }, "amountRaw": { "type": "string", "description": "balanceOf, raw" },
+          "amountRawUi": { "type": "string", "description": "only when balanceOfUI differs from balanceOf" },
+          "usd": { "type": ["number", "null"], "description": "raw units x pool spot (stock) or par (USDG)" },
+          "blocked": { "type": "boolean" }, "frozen": { "type": "boolean" }, "paused": { "type": "boolean" }, "blockedTx": { "type": ["string", "null"], "description": "registry Blocked event tx when in issuer_events" },
+          "checkedAt": { "type": "integer" }, "checkedBlock": { "type": "integer" }
+        }
+      }
+    },
+    "exits": {
+      "type": "array",
+      "items": {
+        "type": "object", "required": ["from", "kind", "note"],
+        "properties": {
+          "from": { "type": "string" }, "kind": { "enum": ["eth", "other-token", "lookalike", "contract", "depth", "fanout", "dust", "horizon"] },
+          "token": { "type": "string" }, "amount": { "type": ["string", "number", "null"] }, "tx": { "type": ["string", "null"] }, "note": { "type": "string" }
+        }
+      }
+    },
+    "candidates": { "type": "array", "description": "victim mode only: outgoing transfers to non-pool EOAs, sorted by usd. No thief is asserted.", "items": { "type": "object", "properties": { "receiver": {}, "token": {}, "symbol": {}, "amountRaw": {}, "amount": {}, "usd": {}, "tx": {}, "block": {}, "time": {} } } },
+    "candidatesTotal": { "type": "integer" },
+    "budget": { "type": "object", "required": ["rpcCalls", "windows", "receipts", "truncated"], "properties": { "rpcCalls": {}, "windows": {}, "receipts": {}, "truncated": { "type": "boolean" }, "reason": { "type": "string" } } },
+    "head": { "type": "integer" }, "headTime": { "type": ["integer", "null"] }, "generatedAt": { "type": "integer" },
+    "status": { "enum": ["queued", "tracing", "done", "partial"] }
+  }
+}

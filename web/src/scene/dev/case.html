@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Frostwit dev: case scene</title>
+<link rel="stylesheet" href="/dist/styles.css">
+<style>
+  body { padding: 0 0 40px; }
+  .dev-wrap { max-width: 1440px; margin: 0 auto; padding: 16px 24px; display: grid; gap: 16px; }
+  .dev-scene { height: 62vh; min-height: 460px; border-radius: 12px; border: 1px solid var(--rime); }
+  @media (max-width: 720px) { .dev-wrap { padding: 12px; } .dev-scene { height: 60svh; } }
+</style></head>
+<body>
+<div class="dev-wrap">
+  <p class="fw-label">Dev page (LANDING) — graph mode on the mock / fixture case. Not deployed.</p>
+  <div class="dev-scene" id="scene"><img class="fw-scene__poster" src="/img/case/mock.png" alt=""></div>
+  <div class="fw-sheet" style="padding:16px"><p class="fw-label" id="asof-h">Freezable now</p><table class="fw-table" id="asof"><thead><tr><th>Holder</th><th>Token</th><th class="num">Amount</th><th class="num">≈ USD</th><th>Status</th></tr></thead><tbody></tbody></table></div>
+  <div class="fw-sheet" style="padding:16px"><p class="fw-label">Hops</p><table class="fw-table" id="hops"><thead><tr><th>Block</th><th>From</th><th>To</th><th>Token</th><th class="num">Amount</th><th>Kind</th></tr></thead><tbody></tbody></table></div>
+</div>
+<script type="module">
+import { mountScene } from '/dist/scene.js';
+const raw = await (await fetch('/api/case/mock')).json();
+const graph = raw.graph || raw;
+const s = (a) => a.slice(0, 6) + '…' + a.slice(-4);
+const hops = document.querySelector('#hops tbody');
+hops.innerHTML = graph.edges.map((e) => `<tr data-block="${e.block}" data-from="${e.from.toLowerCase()}" data-to="${e.to.toLowerCase()}" tabindex="0"><td>${e.block}</td><td>${s(e.from)}</td><td>${s(e.to)}</td><td>${e.symbol}</td><td class="num">${e.amount}</td><td>${e.kind}</td></tr>`).join('');
+const asof = document.querySelector('#asof tbody');
+const scene = mountScene(document.getElementById('scene'), { kind: 'graph', graph }, {
+  pan: true, interactive: true, onContinue: (a) => alert('continue ' + a),
+  onScrub: (block, rows, { atHead }) => {
+    document.getElementById('asof-h').textContent = atHead ? 'Freezable now' : 'Freezable as of block ' + block + ' — status flags are current; balances are reconstructed from the hops.';
+    asof.innerHTML = (rows || []).map((r) => `<tr><td>${s(r.holder)}</td><td>${r.symbol}</td><td class="num">${r.amount}</td><td class="num">${r.usd ?? '—'}</td><td>${r.blocked ? '<span class="fw-chip fw-chip--blocked">blocked by Robinhood registry</span>' : r.frozen ? '<span class="fw-chip fw-chip--frozen">frozen by Paxos</span>' : '<span class="fw-chip fw-chip--open">open</span>'}</td></tr>`).join('');
+    for (const tr of hops.rows) tr.hidden = Number(tr.dataset.block) > block;
+  },
+});
+document.getElementById('scene').addEventListener('fw:lens', (e) => { for (const tr of hops.rows) tr.classList.toggle('is-lens', !!e.detail.id && (tr.dataset.from === e.detail.id || tr.dataset.to === e.detail.id)); });
+window.__scene = scene;
+</script>
+</body></html>

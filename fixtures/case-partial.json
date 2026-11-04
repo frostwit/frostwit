@@ -1,0 +1,144 @@
+{
+ "seed": {
+  "kind": "tx",
+  "value": "0x4b921cd22531d134a6ca3fb0543ddbf4a48912c8c1d7062a5cc2ad2f3826e36e",
+  "block": 105782027,
+  "victim": "0x2dc3a614feb368ce3dc9c483165129e416a8e771",
+  "from": "0x86da03f2bbd17d6d5d7e2fc133f4ba8732582ca6",
+  "to": "0xf37296885dc99ab19a3f510eb9decb76ef2e3ab5",
+  "time": 1793783145,
+  "firstReceivers": [
+   "0x86da03f2bbd17d6d5d7e2fc133f4ba8732582ca6",
+   "0xd646a5982fabab518ca5cd8fba3edc2cf51cde4a",
+   "0x282267bdfc08dba9c8880c240b077e9b299fb32f"
+  ]
+ },
+ "nodes": [
+  {
+   "address": "0x2dc3a614feb368ce3dc9c483165129e416a8e771",
+   "label": "victim",
+   "code": false,
+   "blocked": false,
+   "frozen": false,
+   "depth": 0
+  },
+  {
+   "address": "0x86da03f2bbd17d6d5d7e2fc133f4ba8732582ca6",
+   "label": "receiver",
+   "code": false,
+   "blocked": false,
+   "frozen": false,
+   "depth": 0,
+   "role": "first_receiver"
+  },
+  {
+   "address": "0xd646a5982fabab518ca5cd8fba3edc2cf51cde4a",
+   "label": "receiver",
+   "code": false,
+   "blocked": false,
+   "frozen": false,
+   "depth": 0,
+   "unfinished": true,
+   "role": "first_receiver"
+  },
+  {
+   "address": "0x282267bdfc08dba9c8880c240b077e9b299fb32f",
+   "label": "receiver",
+   "code": false,
+   "blocked": false,
+   "frozen": false,
+   "depth": 0,
+   "unfinished": true,
+   "role": "first_receiver"
+  }
+ ],
+ "edges": [
+  {
+   "from": "0x2dc3a614feb368ce3dc9c483165129e416a8e771",
+   "to": "0x86da03f2bbd17d6d5d7e2fc133f4ba8732582ca6",
+   "token": "0x5fc5360d0400a0fd4f2af552add042d716f1d168",
+   "symbol": "USDG",
+   "amountRaw": "200510000",
+   "amount": 200.51,
+   "usd": 200.51,
+   "tx": "0x4b921cd22531d134a6ca3fb0543ddbf4a48912c8c1d7062a5cc2ad2f3826e36e",
+   "block": 105782027,
+   "time": 1793783145,
+   "kind": "transfer",
+   "logIndex": 30
+  },
+  {
+   "from": "0x2dc3a614feb368ce3dc9c483165129e416a8e771",
+   "to": "0xd646a5982fabab518ca5cd8fba3edc2cf51cde4a",
+   "token": "0x5fc5360d0400a0fd4f2af552add042d716f1d168",
+   "symbol": "USDG",
+   "amountRaw": "20800000000",
+   "amount": 20800,
+   "usd": 20800,
+   "tx": "0x4b921cd22531d134a6ca3fb0543ddbf4a48912c8c1d7062a5cc2ad2f3826e36e",
+   "block": 105782027,
+   "time": 1793783145,
+   "kind": "transfer",
+   "logIndex": 32
+  },
+  {
+   "from": "0x2dc3a614feb368ce3dc9c483165129e416a8e771",
+   "to": "0x282267bdfc08dba9c8880c240b077e9b299fb32f",
+   "token": "0x5fc5360d0400a0fd4f2af552add042d716f1d168",
+   "symbol": "USDG",
+   "amountRaw": "50000000",
+   "amount": 50,
+   "usd": 50,
+   "tx": "0x4b921cd22531d134a6ca3fb0543ddbf4a48912c8c1d7062a5cc2ad2f3826e36e",
+   "block": 105782027,
+   "time": 1793783145,
+   "kind": "transfer",
+   "logIndex": 34
+  }
+ ],
+ "freezable": [
+  {
+   "holder": "0x86da03f2bbd17d6d5d7e2fc133f4ba8732582ca6",
+   "token": "0x5fc5360d0400a0fd4f2af552add042d716f1d168",
+   "symbol": "USDG",
+   "issuer": "paxos",
+   "amountRaw": "705719242481",
+   "amount": 705719.242481,
+   "usd": 705719.242481,
+   "blocked": false,
+   "frozen": false,
+   "paused": false,
+   "checkedAt": 1793783820,
+   "checkedBlock": 105788593,
+   "blockedTx": null
+  },
+  {
+   "holder": "0x282267bdfc08dba9c8880c240b077e9b299fb32f",
+   "token": "0x5fc5360d0400a0fd4f2af552add042d716f1d168",
+   "symbol": "USDG",
+   "issuer": "paxos",
+   "amountRaw": "150000000",
+   "amount": 150,
+   "usd": 150,
+   "blocked": false,
+   "frozen": false,
+   "paused": false,
+   "checkedAt": 1793783820,
+   "checkedBlock": 105788593,
+   "blockedTx": null
+  }
+ ],
+ "exits": [],
+ "budget": {
+  "rpcCalls": 17,
+  "windows": 1,
+  "receipts": 1,
+  "truncated": true,
+  "reason": "rpc calls (14)"
+ },
+ "head": 105788593,
+ "headTime": 1793783815,
+ "status": "partial",
+ "generatedAt": 1793783821,
+ "_note": "REAL trace recorded from Robinhood Chain on 2026-11-04, then anonymised: wallet addresses and tx hashes are deterministic fakes; token, pool, registry and router contracts are real. The seed is an ordinary transfer chain, NOT a theft."
+}
