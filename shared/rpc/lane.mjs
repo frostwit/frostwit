@@ -28,12 +28,17 @@ export class Lane {
   // ttl: 'forever' | seconds | undefined (do not cache). A cache hit costs no lane time.
   async request(method, params = [], { prio = PRIO.interactive, ttl } = {}) {
     const key = ttl != null && this.cache ? cacheKey(method, params) : null;
-    if (key) { const hit = this.cache.get(key); if (hit !== undefined) return JSON.parse(hit); }
+    // Missing transactions/receipts can appear later. Ignore legacy permanent nulls too.
+    const cacheNull = ttl !== 'forever' || (method !== 'eth_getTransactionByHash' && method !== 'eth_getTransactionReceipt');
+    if (key) {
+      const hit = this.cache.get(key);
+      if (hit !== undefined) { const value = JSON.parse(hit); if (value !== null || cacheNull) return value; }
+    }
     const result = await new Promise((resolve, reject) => {
       this.queues[Math.min(3, Math.max(0, prio))].push({ method, params, resolve, reject });
       this._pump();
     });
-    if (key) this.cache.set(key, JSON.stringify(result), ttl);
+    if (key && (result !== null || cacheNull)) this.cache.set(key, JSON.stringify(result), ttl);
     return result;
   }
   async _pump() {
